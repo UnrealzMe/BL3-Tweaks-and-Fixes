@@ -2,16 +2,17 @@
 ### Name: Borderlands 3 Tweaks and Fixes
 ### Version: 1
 ### Author: UnrealMe
-### Categories: bugfix, qol
+### Categories: Bugfixes, General QoL, UI QoL Changes, Loot Pool Overhaul
+#
 ### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 ### License URL: https://creativecommons.org/licenses/by-sa/4.0/.
 #
-### CREDITS: Aaron0000, CZ47, Lonemastereno, EpicNNG, SSpyR, Apocalyptech, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm, shadowevil
+### CREDITS: Aaron0000, shadowevil, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm
 #
 
 
 
-### QOL Stuff ###
+### QoL Changes ###
 
 # The Shooting Star shield has a very cool effect, but unfortunately due to collioson with the world, it hardly ever works.
 # Allowing the it to go through the world would be a great way of bringing it back into usage.
