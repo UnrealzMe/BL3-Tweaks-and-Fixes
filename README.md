@@ -15,7 +15,7 @@ It includes a lot of mods from around the community and it is meant to be a simi
 
 ## Mod Description:
 
-QoL Changes:
+##### QoL Changes:
 - Faster NPCs.
 - Smaller HUD
 - No loyality reward and reload notifications.
@@ -26,7 +26,7 @@ QoL Changes:
 - Always Visible Challenge Icons on the map. (DLC1 Excluded).
 - Some animations speed has been increased.
  
-The Fixes:
+##### The Fixes:
 - Various class fixes.
 - Various Description fixes and adjustments.
 - Good Juju - Fix the secondary firing mode doing less than the primary firing mode.
@@ -45,7 +45,7 @@ The Fixes:
 - Shlooter - Make it always spawn with three passive stat bonuses.
 - The Shooting Star shield: Allowing it to go through the world.
 
-Quest Changes:
+##### Quest Changes:
 - Bumps up the gifts you get at the end of Heart of Gold.
 - Buffs up the amount of cash you get from the malfunctioning slot machines during the DLC2 mission "Sisterly Love."
 - Ava's 'Invasion of Privacy' Chest is legendary in addition to The Boo.
@@ -53,7 +53,7 @@ Quest Changes:
 - Vault of the Serpet ammo crates contain Eridium.
 - Wainwright's chests in Knotty Peak are Jakobs-Only.
 
-Loot Pool Tweaks:
+##### Loot Pool Tweaks:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er), to world drops.
 - Loot-o'-Gram - Butcher and Lucian's Call replaced with a chance at a drop from the Slaughter Bosses.
 - Anointed Zealots has a chance to drop Alien-Barrel Submachine Guns.
