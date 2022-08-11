@@ -155,7 +155,6 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/Man
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/GameplayGlobals.GameplayGlobals,AmmoLowPercent,0,,0.01
 
 ### Change Ammo loot to be based on missing ammo. 
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Attributes/Att_Health_Resolver_NeedandGreed.Att_Health_Resolver_NeedandGreed:ResourceWeightAttributeValueResolver_0,ResourceThreshold,0,,(BaseValueConstant=0.5,DataTableValue=(DataTable=None,RowName=None,ValueName=None))
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Attributes/Att_Health_Resolver_NeedandGreed.Att_Health_Resolver_NeedandGreed:ResourceWeightAttributeValueResolver_0,AboveThresholdWeight,0,,(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName=None,ValueName=None))
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Attributes/Att_Health_Resolver_NeedandGreed.Att_Health_Resolver_NeedandGreed:ResourceWeightAttributeValueResolver_0,NoPoolWeight,0,,(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName=None,ValueName=None))
@@ -1511,7 +1510,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,BasePriority,0,,0.001
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
-# Fixing the Loader giving you proper damagereduction instead of increased damage intake and making all pet passives scale with Barbaric Yawp
+# Fixing the Loader giving you proper damagereduction instead of increased damage intake and making all pet passives scale with Barbaric Yawp.
 # BUL Loader
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Pet/Loader/_Design/StatusEffects/Status_Beastmaster_PetLoaderBuff_Base.Status_Beastmaster_PetLoaderBuff_Base,AttributeEffects.AttributeEffects[0].BaseModifierValue,0,,(BaseValueConstant=1.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=/Game/PlayerCharacters/_Shared/_Design/Attributes/Beastmaster/Att_Beastmaster_PetBuffPassiveScale.Att_Beastmaster_PetBuffPassiveScale,AttributeInitializer=None,BaseValueScale=0.2)
 
@@ -1525,7 +1524,7 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Pet/Loade
 # Making the damagereduction bonus from pet a positive value on the card to avoid confusion.
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1,StatDataItems.StatDataItems[0].Object..SignStyle,0,,Positive
 
-# Making War Loader Reduce Burst Fire Delay instead of increasing it
+# Making War Loader Reduce Burst Fire Delay instead of increasing it.
 # War Loader
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Pet/Loader/_Design/StatusEffects/Status_Beastmaster_PetLoaderBuff_Evo2.Status_Beastmaster_PetLoaderBuff_Evo2,AttributeEffects.AttributeEffects[0].BaseModifierValue,0,,(BaseValueConstant=0.0,BaseValueAttribute=/Game/PlayerCharacters/_Shared/_Design/Attributes/Beastmaster/Att_Beastmaster_PetBuffPassiveScale.Att_Beastmaster_PetBuffPassiveScale,AttributeInitializer=None,BaseValueScale=0.12)
 
@@ -1569,7 +1568,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ix
 
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
-# Make the Pets and Skills show the mayhem scaling they gain
+# Make the Pets and Skills show the mayhem scaling they gain.
 # Success Imminent
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill')
 
@@ -2205,7 +2204,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/H
 
 ## Zane
 
-# Fixing Sheer Will so the bonus cooldown on crit also works for Mntis
+# Fixing Sheer Will so the bonus cooldown on crit also works for Mntis.
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_Design/Attributes/Operative/Att_ActionSkill_Operative_CooldownRate_Skill2.Att_ActionSkill_Operative_CooldownRate_Skill2"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_2"'),(AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_Design/Attributes/Operative/Att_ActionSkill_Operative_CooldownRate_Skill3.Att_ActionSkill_Operative_CooldownRate_Skill3"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_0"'),(AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_Design/Attributes/Operative/Att_ActionSkill_Operative_CooldownRate_Skill1.Att_ActionSkill_Operative_CooldownRate_Skill1"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_1"'),(AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_DLC/Ixora/Balance/Operative/Att_ActionSkill_Operative_CooldownRate_Skill4.Att_ActionSkill_Operative_CooldownRate_Skill4"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_3"'))
 
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus,AttributeEffects.AttributeEffects[3].Mutator.Object..PerGradeUpgrade,0,,(DataTableValue=(DataTable=Datatable'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/Table_Operative_DLCPassiveContantValues.Table_Operative_DLCPassiveContantValues"',RowName="DLCSkill10_CooldownRateBonus",ValueName="Base_17_28B25EC8493D1EB6C2138A962F659BCD"))
@@ -2454,7 +2453,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora/Gear/ClassMods/_Desig
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora2/Gear/ClassMods/_Design/SRN/L01/InvBalD_CM_Ixora2_SRN_L01.InvBalD_CM_Ixora2_SRN_L01,RuntimePartList.AllParts.AllParts[73].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora2/Gear/ClassMods/_Design/SRN/L01/PartSet_CM_Ixora2_SRN_L01.PartSet_CM_Ixora2_SRN_L01,ActorPartLists.ActorPartLists[3].bUseWeightWithMultiplePartSelection,0,,True
 
-# Droughts Stocked Porta-Potties
+# Droughts Stocked Porta-Potties.
 SparkEarlyLevelPatchEntry,(1,1,0,Prologue_P),/Game/Maps/Zone_0/Prologue/Prologue_Dynamic.Prologue_Dynamic:PersistentLevel.BPIO_Lootable_Industrial_PortaPotty_61,LootDefinition,0,,LootableBalanceData'"/Game/Lootables/_Design/Data/Industrial/LootDef_Industrial_PortaPotty.LootDef_Industrial_PortaPotty"'
 SparkEarlyLevelPatchEntry,(1,1,0,Prologue_P),/Game/Maps/Zone_0/Prologue/Prologue_Dynamic.Prologue_Dynamic:PersistentLevel.BPIO_Lootable_Industrial_PortaPotty_61.Loot,BalanceData,0,,LootableBalanceData'"/Game/Lootables/_Design/Data/Industrial/LootDef_Industrial_PortaPotty.LootDef_Industrial_PortaPotty"'
 SparkEarlyLevelPatchEntry,(1,1,0,Prologue_P),/Game/Maps/Zone_0/Prologue/Prologue_Dynamic.Prologue_Dynamic:PersistentLevel.BPIO_Lootable_Industrial_PortaPotty_224,LootDefinition,0,,LootableBalanceData'"/Game/Lootables/_Design/Data/Industrial/LootDef_Industrial_PortaPotty.LootDef_Industrial_PortaPotty"'
@@ -2528,7 +2527,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGame
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFireDamage/UIStat_Gunner_NextMagFireDamage.UIStat_Gunner_NextMagFireDamage,FormatText.string,0,,[endgame]After exiting [endgamebold]Iron Bear[/endgamebold], Moze gains[/endgame]
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFireDamage/UIStat_Gunner_NextMagFireDamage.UIStat_Gunner_NextMagFireDamage:SupplementalStat_UIStatData_OakPassiveAbilityAttributeInitializer,FormatText.string,0,,[endgame]$VALUE$ bonus Incendiary damage until she switches weapons.[/endgame]
 
-# Gunner Reload/Handling Magazine Anointment- Update description to be accurate
+# Gunner Reload/Handling Magazine Anointment- Update description to be accurate.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagReloadHandling/UIStat_Gunner_NextMagReloadHandling.UIStat_Gunner_NextMagReloadHandling,FormatText.string,0,,[endgame]After exiting [endgamebold]Iron Bear[/endgamebold], Moze will have[/endgame]
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagReloadHandling/UIStat_Gunner_NextMagReloadHandling.UIStat_Gunner_NextMagReloadHandling:SupplementalStat_UIStatData_OakPassiveAbilityAttributeInitializer,FormatText.string,0,,[endgame]$VALUE$ increased reload speed and[/endgame]
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagReloadHandling/UIStat_Gunner_NextMagReloadHandling.UIStat_Gunner_NextMagReloadHandling:SupplementalStat_UIStatData_OakPassiveAbilityAttributeInitializer.SupplementalStat_UIStatData_OakPassiveAbilityAttributeInitializer,FormatText.string,0,,[endgame]$VALUE$ increased handling until she switches weapons.[/endgame]
@@ -2578,7 +2577,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/P
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_15/Passive_Gunner_DLCSkill_15.Default__Passive_Gunner_DLCSkill_15_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText.string,0,,[skillbold]Iron Bear/Iron Cub Damage:[/skillbold] $VALUE$
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_15/Passive_Gunner_DLCSkill_15.Default__Passive_Gunner_DLCSkill_15_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,FormatText.string,0,,[skillbold]Iron Bear/Iron Cub Damage Resistance:[/skillbold] $VALUE$
 
-# Make Dakka Bear description accurate to in-game effects
+# Make Dakka Bear description accurate to in-game effects.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/Augments/Augment_Core_2.Augment_Core_2:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer,FormatText.string,0,,[skillbold]Iron Bear Damage:[/skillbold] +125%
 
 # Make Drowning in Brass display Iron Bear/Cub damage and change the Iron Bear Damage boost to affect both arms.
@@ -2739,7 +2738,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Shields/_Design/_Uniques/Cyttor
 # Fuel Economy - Fix the Movement Speed Bonus displaying double the actual effect.
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,CoreStrength_Salamander_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.18
 
-# MNTIS Damage Anointment - Fix the anointment providing double the benefit displayed in the anointment description (It'd normally display 150% but actually boost damage 300%, this makes it just actually be 300%)
+# MNTIS Damage Anointment - Fix the anointment providing double the benefit displayed in the anointment description (It'd normally display 150% but actually boost damage 300%, this makes it just actually be 300%).
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Ixora/Gear/Weapons/EndGameParts/DataTable_EndGameParts_Ixora.DataTable_EndGameParts_Ixora,Operative_MNTIS_Damage,Damage_7_39142BF947B2CBE02701DBA97A4D507F,0,,3
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora/Gear/Weapons/EndGameParts/OP1/MNTISDamage/CDM_Operative_MNTISDamage.CDM_Operative_MNTISDamage,DamageValue.BaseValueScale,0,,1
 
@@ -2751,7 +2750,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_
 # Rage and Recover - Fix Skill Description to be Total Health instead of Missing Health.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/HitAndRun3/Passive_Beastmaster_HitAndRun_3.Default__Passive_Beastmaster_HitAndRun_3_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Health Regeneration:[/skillbold] $VALUE$ of Total Health/sec
 
-### Add time-length to certain anointments descriptions. ###
+### Add time-length to certain anointments descriptions
 
 # Generic Anointments
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_AccuracyHandling/UIStat_All_SkillEnd_AccuracyHandling.UIStat_All_SkillEnd_AccuracyHandling,FormatText,0,,[endgame]On [endgamebold]Action Skill End[/endgamebold], Weapon Accuracy and Handling are greatly increased for 12 seconds.[/endgame]
@@ -2771,7 +2770,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGame
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandLifeSteal/UIStat_Beast_AttackCmd_Lifesteal.UIStat_Beast_AttackCmd_Lifesteal,FormatText,0,,[endgame]After using [endgamebold]Attack Command[/endgamebold], gain $VALUE$ lifesteal for 8 seconds.[/endgame]
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/BloodyHarvest/Gear/Weapons/EndGameParts/Character/Beastmaster/AtkCmdTerrorFireDmg/UIStat_Beast_AttackCmd_TerrorFireDMG.UIStat_Beast_AttackCmd_TerrorFireDMG,FormatText,0,,[endgame]After using [endgamebold]Attack Command[/endgamebold], consume all [endgamebold]Terror[/endgamebold] and Fl4K's pet gains $VALUE$ bonus fire damage for 15 seconds.[/endgame]
 
-### Red-text Explainer ###
+### Red-text Explainer
 
 # 9-Volt
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/_Unique/NineVolt/UIStat_NineVolt_Flavor.UIStat_NineVolt_Flavor,Text,0,,[Flavor]Contact.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](7 pellets in inverted triangle, alt mode changes zoom.)[/italic][/nameplate_enemy_slight]
@@ -3880,7 +3879,7 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard3/Gear/GrenadeMods/Unique/Blood
 # Sidewinder
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard3/Gear/GrenadeMods/Unique/Sidewinder/UIStat_RedText_Sidewinder.UIStat_RedText_Sidewinder,Text,0,,[Flavor]This is what I call a target-rich environment.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](All effects on card.)[/italic][/nameplate_enemy_slight]
 
-### HUD/UI Changes ###
+### HUD/UI Changes
 
 #Character
 SparkPatchEntry,(1,2,0,),/Game/UI/HUD/UIData_HUDLayout_Character.UIData_HUDLayout_Character,crosshairContainer,Scale,0,,(x=60.0,y=60.0)
@@ -4008,7 +4007,7 @@ SparkLevelPatchEntry,(1,1,0,Trashtown_P),/Dandelion/Missions/Side/HeartOfGold/It
 # Use "biggest" money drop.
 SparkLevelPatchEntry,(1,1,0,Strip_P),/Dandelion/Missions/Side/BrotherlyLove/ItemPool_Money_BrotherlyLove.ItemPool_Money_BrotherlyLove,BalancedItems.BalancedItems[0],0,,(InventoryBalanceData=/Game/Pickups/Money/DA_InventoryBalance_Currency_MoneyTripleStack,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Pickups/Money/DA_InventoryBalance_Currency_MoneyTripleStack.DA_InventoryBalance_Currency_MoneyTripleStack"',Weight=(BaseValueConstant=1))
 
-# Increase initial money drop count.
+# Increase initial money drop count
 SparkLevelPatchEntry,(1,1,0,Strip_P),/Dandelion/Missions/Side/BrotherlyLove/ItemPool_Money_BrotherlyLove.ItemPool_Money_BrotherlyLove,Quantity.BaseValueConstant,0,,100
 
 # Ava's 'Invasion of Privacy' Chest is legendary in addition to The Boo.
