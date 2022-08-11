@@ -46,7 +46,7 @@ It includes a lot of mods from around the community and it is meant to be a simi
 - The Shooting Star shield: Allowing it to go through the world.
 
 #### Quest Changes:
-- Bumps up the gifts you get at the end of Heart of Gold.
+- Bumps up the gifts you get at the end of "Heart of Gold."
 - Buffs up the amount of cash you get from the malfunctioning slot machines during the DLC2 mission "Sisterly Love."
 - Ava's 'Invasion of Privacy' Chest is legendary in addition to The Boo.
 - Prisa's Pop's loot stash has a guaranteed legendary.
