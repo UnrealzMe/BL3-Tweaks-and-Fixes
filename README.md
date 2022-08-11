@@ -24,7 +24,7 @@ QoL Changes includes:
 - Adjusts the character-specific weighting so that you won't get COMs, customizations, or anointments for any character other than the one you're currently playing.
 - Replace Earl's Item of the Day with an Alien-Barrel item, remove Uncommon gear from the vendor, make Quest items more common, and increase max vendor item count to 10 from 9.
 - Always Visible Challenge Icons on the map. (DLC1 Excluded).
-- Some animations speed has been increased (Mass pickup, Catch-A-Ride digistruct time).
+- Some animations speed has been increased.
  
 The Fixes includes:
 - Lots of class fixes.
