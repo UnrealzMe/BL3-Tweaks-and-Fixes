@@ -19,7 +19,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - No loyality reward and reload notifications.
 - Ammo drops are now based on your missing ammo.
 - Anointment Re-roll Cost lowered to 150 Eridium.
-- Reduced the drops to anything other to your class (that would be class mods, anoints etc).
+- Reduced the drops to anything other to your class.
 - Replace Earl's Item of the Day with an Alien-Barrel item, remove Uncommon gear from the vendor, make Quest items more common, and increase max vendor item count to 10 from 9.
 - Always Visible Challenge Icons on the map. (DLC1 Excluded).
 - Some animations speed has been increased.
