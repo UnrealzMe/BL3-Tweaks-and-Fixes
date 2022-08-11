@@ -73,6 +73,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Gigamind has a chance to drop Null-Pointer.
 - Private Beans has a chance to drop the Boo.
 - Rampager has a chance to drop the Cloud Kill.
+- Graveward has a chance to drop the Earworm.
 - Switch the Quadomizer and Duc on the Rampager and Dreg/Rage.
 - Switch the Messy Breakup and Ten Gallon on GenIVIV and Rax.
 - Add the Hand of Glory to Muldock's Loot Pool.
@@ -89,8 +90,8 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Add Ember's Purge to Loco Chantelle's loot pool.
 - Freddie - Add the Scoville to Freddie's loot pool.
 - Jack-bot - Add Rico to Jack-bot's loot pool.
-- Add Short Stick to Yeeti, increase chance of Yeeti dropping from its loot pool, fix Short Stick only dropping at level 57.
-- Make Eista retain his Invincible moniker after "We Slass! 3", increase Eista the Invincible's total health to roughly halfway between Wotan and Scourge. Add the Sacrificial Lamb to Eista loot pool with a 15% chance to drop, make Eista have a 30% chance to drop a DLC2 item of each type each, and fatten up his drops with more money, eridium, and two chances for legendary gear per item type.
+- Yeti has a chance to drop the Short Stick, fix Short Stick only dropping at level 57.
+- Make Eista retain his Invincible moniker after "We Slass! 3", increase Eista the Invincible's total health to roughly halfway between Wotan and Scourge. Add the Sacrificial Lamb to Eista loot pool. Make Eista have a chance to drop a DLC2 item of each type each, fatten up his drops with more money, eridium and a chance for legendary gear per item type.
 - Give the singing fish in DLC2 a small chance of producing a Fish Slap.
 - Kritchy has a chance to drop the Cure.
 - Amach has a chance to drop the Initiative.
@@ -109,7 +110,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Ruiner has a chance to drop the Dakota.
 - Add Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny to the Psycho Krieg DLC unique item world drop pool.
 - Evil Lilith - Increase the odds of her dropping an item to 30% to compensate for the obnoxiously long immunity phase.
-- Increased the drop rate of Arms Race Legendary Gear from the chests.
+- Optimize the drop rate of Arms Race Legendary Gear from the chests.
 - Heavyweight Horker has additional chances to drop Arms Race gear.
 - The Seer has a chance to drop the Mysterious Amulet.
 - Make Captain Haunt drop at least two dedicated items per kill.
