@@ -17,7 +17,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Faster NPCs.
 - Smaller HUD.
 - No loyality reward and reload notifications.
-- Ammo drops are now based on your missing ammo like in previous Borderlands games.
+- Ammo drops are now based on your missing ammo.
 - Anointment Re-roll Cost lowered to 150 Eridium.
 - Reduced the drops to anything other to your class (that would be class mods, anoints etc).
 - Replace Earl's Item of the Day with an Alien-Barrel item, remove Uncommon gear from the vendor, make Quest items more common, and increase max vendor item count to 10 from 9.
