@@ -7,7 +7,7 @@
 
 #### License: https://creativecommons.org/licenses/by-sa/4.0/.
 
-This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on an Unofficial Patch and the Balands. It also includes many mods from all over the community.
+This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on an Unofficial Patch and the Balands. It also includes many mods from all over the community. it is meant to be a similar experience to a Gearbox patch.
 
 #### CREDITS: Aaron0000, shadowevil, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm.
 
