@@ -3,17 +3,15 @@
 
 #### Most Recent Version: 1.0
 
-#### Categories: Bugfixes, General QoL, UI Changes, Quest Tweaks, Loot Pool Tweaks.
+#### Categories: Bugfixes, General QoL, UI Changes, Quests Tweaks, Loot Pool Tweaks.
 
 #### License: https://creativecommons.org/licenses/by-sa/4.0/.
 
-This is a collection of mods containing bug fixes and quality of life changes.
+This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on an Unofficial Patch and the Balands. It also includes many mods from all over the community.
 
-It includes a lot of mods from around the community and it is meant to be a similar experience to a Gearbox patch, except this time, it is from people around the community.
+#### CREDITS: Aaron0000, shadowevil, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm.
 
-#### CREDITS to Aaron0000, shadowevil, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm.
-
-## Mod Description:
+## Changelog:
 
 #### QoL Changes:
 - Faster NPCs.
