@@ -3,7 +3,7 @@
 
 #### Most Recent Version: 1.0
 
-#### Categories: Bugfixes, General QoL, UI Changes, Loot Pool Tweaks.
+#### Categories: Bugfixes, General QoL, UI Changes, Quest Tweaks, Loot Pool Tweaks.
 
 #### License: https://creativecommons.org/licenses/by-sa/4.0/.
 
@@ -17,7 +17,6 @@ It includes a lot of mods from around the community and it is meant to be a simi
 
 QoL Changes includes:
 - Minimalistic hud (it's just smaller than vanilla hud)
-- The Shooting Star shield: Allowing the it to go through the world would be a great way of bringing it back into usage.
 - Faster NPCs.
 - No loyality reward and reload notifications.
 - Ammo drops are now based on your missing ammo like in previous Borderlands games.
@@ -44,6 +43,15 @@ The Fixes includes:
 - Fix Siren COMs sometimes spawning with a blank part.
 - Droughts Stocked Porta-Potties.
 - Shlooter - Make it always spawn with three passive stat bonuses.
+- The Shooting Star shield: Allowing it to go through the world.
+
+Quest Changes:
+- Bumps up the gifts you get at the end of Heart of Gold.
+- Buffs up the amount of cash you get from the malfunctioning slot machines during the DLC2 mission "Sisterly Love."
+- Ava's 'Invasion of Privacy' Chest is legendary in addition to The Boo.
+- Prisa's Pop's loot stash has a guaranteed legendary.
+- Vault of the Serpet ammo crates contain Eridium.
+- Wainwright's chests in Knotty Peak are Jakobs-Only.
 
 Loot Pool Tweaks includes:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er), to world drops.
@@ -102,10 +110,3 @@ Loot Pool Tweaks includes:
 - The Seer has a chance to drop the Mysterious Amulet.
 - Make Captain Haunt drop at least two dedicated items per kill.
 - Joey Ultraviolet has an additional chance to drop from each of the Underboss drop pools and a chance to drop the Pricker.
-
-
-
-
-
-
-
