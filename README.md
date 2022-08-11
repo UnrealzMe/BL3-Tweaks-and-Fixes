@@ -3,7 +3,7 @@ Author: UnrealMe
 
 #### Most Recent Version: 1.0
 
-# Categories: Bugfixes, General QoL, UI Changes, Loot Pool Tweaks.
+## Categories: Bugfixes, General QoL, UI Changes, Loot Pool Tweaks.
 
 ## License: https://creativecommons.org/licenses/by-sa/4.0/.
 
