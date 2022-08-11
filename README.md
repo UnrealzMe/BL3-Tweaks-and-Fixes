@@ -1,28 +1,29 @@
 ## Borderlands 3 Tweaks and Fixes
 #### Author: UnrealMe
 
-#### Most Recent Version: 1.0
+#### Version: 1.0
 
-#### Categories: Bugfixes, General QoL, UI Changes, Quests Tweaks, Loot Pool Tweaks.
+#### Categories: Bug Fixes, General QoL, UI Changes, Quests Tweaks, Loot Pool Tweaks.
 
 #### License: https://creativecommons.org/licenses/by-sa/4.0/.
 
-This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on an Unofficial Patch and the Balands, also includes many mods from all over the community. it is meant to be a similar experience to a Gearbox patch.
+This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community. it is meant to be a similar experience to a Gearbox patch.
 
-#### CREDITS: Aaron0000, shadowevil, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm.
+#### CREDITS: Aaron0000, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, shadowevil, ZetaDaemon, Novenic, Grimm.
 
 ## Changelog:
 
 #### QoL Changes:
 - Faster NPCs.
-- Smaller HUD
+- Smaller HUD.
 - No loyality reward and reload notifications.
 - Ammo drops are now based on your missing ammo like in previous Borderlands games.
 - Anointment Re-roll Cost lowered to 150 Eridium.
-- Adjusts the character-specific weighting so that you won't get COMs, customizations, or anointments for any character other than the one you're currently playing.
+- Reduced the drops to anything other to your class (that would be class mods, anoints etc).
 - Replace Earl's Item of the Day with an Alien-Barrel item, remove Uncommon gear from the vendor, make Quest items more common, and increase max vendor item count to 10 from 9.
 - Always Visible Challenge Icons on the map. (DLC1 Excluded).
 - Some animations speed has been increased.
+- Easier explaination of which trials is which.
  
 #### The Fixes:
 - Various class fixes.
@@ -50,6 +51,10 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Prisa's Pop's loot stash has a guaranteed legendary.
 - Vault of the Serpet ammo crates contain Eridium.
 - Wainwright's chests in Knotty Peak are Jakobs-Only.
+
+#### Drop Location Changes:
+- Switch the Quadomizer and Duc on the Rampager and Dreg/Rage.
+- Switch the Messy Breakup and Ten Gallon on GenIVIV and Rax.
 
 #### Loot Pool Tweaks:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er), to world drops.
