@@ -87,7 +87,7 @@ It includes a lot of mods from around the community and it is meant to be a simi
 - Freddie - Add the Scoville to Freddie's loot pool.
 - Jack-bot - Add Rico to Jack-bot's loot pool.
 - Add Short Stick to Yeeti, increase chance of Yeeti dropping from its loot pool, fix Short Stick only dropping at level 57.
-- Make Eista retain his Invincible moniker after "We Slass! 3", increase Eista the Invincible's total health to roughly halfway between Wotan and Scourge. Add the Sacrificial Lamb to Eista with a 15% chance of dropping, make Eista have a 30% chance to drop a DLC2 item of each type each, and fatten up his drops with more money, eridium, and two chances for legendary gear per item type.
+- Make Eista retain his Invincible moniker after "We Slass! 3", increase Eista the Invincible's total health to roughly halfway between Wotan and Scourge. Add the Sacrificial Lamb to Eista loot pool with a 15% chance to drop, make Eista have a 30% chance to drop a DLC2 item of each type each, and fatten up his drops with more money, eridium, and two chances for legendary gear per item type.
 - Give the singing fish in DLC2 a small chance of producing a Fish Slap.
 - Kritchy has a chance to drop the Cure.
 - Amach has a chance to drop the Initiative.
