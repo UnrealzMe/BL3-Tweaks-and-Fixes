@@ -63,8 +63,8 @@ Loot Pool Tweaks includes:
 - Add a 33% chance for Anointed Goons to drop Alien-Barrel Sniper Rifles.
 - Add a 33% chance for Anointed Goliaths to drop Alien-Barrel Heavy Weapons.
 - Anathema the Relentless and Scourge the Invincible Martyr - Add more chances for dedicated loot, add additional Mayhem-scaled dedicated drops.
-- Hemovorous the Invincible - Make Hemovorous drop two pieces of her specific loot with a 25% chance and a bunch of money, eridium, and legendary/purple/blue gear. Also makes her produce 2 Company Men per kill and remove it from her regular loot pool.
-- Vermivorous the Invincible - Make Vermivorous drop two pieces of Mayhem 6 gear and a 25% chance to drop a random Director's Cut item. Also more loot in general.
+- Hemovorous the Invincible has a chance to drop two pieces of her specific loot, a bunch of money, eridium, and legendary/purple/blue gear. Also makes her produce 2 Company Men per kill and remove it from her regular loot pool.
+- Vermivorous the Invincible has a chance to drop two pieces of Mayhem 6 gear and a chance to drop a random Director's Cut item. Also more loot in general.
 - Improved the Godliath loot pool.
 - Kratch has a chance to drop the Pearl of Knowledge.
 - Gigamind has a chance to drop Null-Pointer.
