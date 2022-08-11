@@ -15,7 +15,7 @@ It includes a lot of mods from around the community and it is meant to be a simi
 
 ## Mod Description:
 
-QoL Changes includes:
+QoL Changes:
 - Faster NPCs.
 - Smaller HUD
 - No loyality reward and reload notifications.
@@ -26,9 +26,9 @@ QoL Changes includes:
 - Always Visible Challenge Icons on the map. (DLC1 Excluded).
 - Some animations speed has been increased.
  
-The Fixes includes:
+The Fixes:
 - Various class fixes.
-- Tons of Description fixes and adjustments.
+- Various Description fixes and adjustments.
 - Good Juju - Fix the secondary firing mode doing less than the primary firing mode.
 - Blood-Starved Beast - Fix the damage source to be SMG.
 - Woodblocker  - Add the missing critical damage and vertical recoil bonuses back.
@@ -53,7 +53,7 @@ Quest Changes:
 - Vault of the Serpet ammo crates contain Eridium.
 - Wainwright's chests in Knotty Peak are Jakobs-Only.
 
-Loot Pool Tweaks includes:
+Loot Pool Tweaks:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er), to world drops.
 - Loot-o'-Gram - Butcher and Lucian's Call replaced with a chance at a drop from the Slaughter Bosses.
 - Anointed Zealots has a chance to drop Alien-Barrel Submachine Guns.
