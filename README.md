@@ -110,7 +110,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Add Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny to the Psycho Krieg DLC unique item world drop pool.
 - Evil Lilith - Increase the odds of her dropping an item to 30% to compensate for the obnoxiously long immunity phase.
 - Increased the drop rate of Arms Race Legendary Gear from the chests.
-- Heavyweight Horker - Add additional chances to drop Arms Race gear.
+- Heavyweight Horker has additional chances to drop Arms Race gear.
 - The Seer has a chance to drop the Mysterious Amulet.
 - Make Captain Haunt drop at least two dedicated items per kill.
 - Joey Ultraviolet has an additional chance to drop from each of the Underboss drop pools and a chance to drop the Pricker.
