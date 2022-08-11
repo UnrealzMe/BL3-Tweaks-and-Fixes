@@ -1,7 +1,7 @@
 # Borderlands 3 Tweaks and Fixes
 Author: UnrealMe
 
-# Most Recent Version: 1.0
+### Most Recent Version: 1.0
 
 # Categories: Bugfixes, General QoL, UI Changes, Loot Pool Tweaks.
 
