@@ -4,7 +4,7 @@
 ### Name: Borderlands 3 Tweaks and Fixes
 ### Version: 1
 ### Author: UnrealMe
-### Categories: Bugfixes, General QoL, UI QoL Changes, Loot Pool Overhaul
+### Categories: Bugfixes, General QoL, UI Changes, Loot Pool Tweaks.
 ### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 ### License URL: https://creativecommons.org/licenses/by-sa/4.0/.
 ### CREDITS: Aaron0000, shadowevil, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm
@@ -2383,24 +2383,6 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SniperRifles/Hyperion/_Shared/_Desig
 # S.F. Force - Fix the Secondary Firing Mode having incorrect damage compared to the primary firing mode.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/SFForce/Parts/Part_SM_MAL_Barrel_SFForce.Part_SM_MAL_Barrel_SFForce,WeaponUseModeAttributeEffects.WeaponUseModeAttributeEffects,0,,((UseMode=(EWeaponUseMode=EWeaponUseMode_MAX),UseModeBitmask=3,AttributeEffects=((AttributeToModify=/Game/GameData/Weapons/Game/Gear/Weapons/_Shared/_Design/WeaponAttributes/Att_BarrelType.Att_BarrelType,ModifierType=OverrideBaseValue,ModifierValue=(BaseValueConstant=3,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_SwayDiscWidth.Att_Weapon_SwayDiscWidth,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.1,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_SwayDiscHeight.Att_Weapon_SwayDiscHeight,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.1,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_RecoilHeightScale.Att_Weapon_RecoilHeightScale,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.25,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_RecoilWidthScale.Att_Weapon_RecoilWidthScale,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0.25,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=/Game/PatchDLC/Hibiscus/Gear/Weapon/DataTable_WeaponBalance_Hibiscus.DataTable_WeaponBalance_Hibiscus,RowName=SM_SFForce,ValueName=DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53),BaseValueScale=1)))),(UseMode=(EWeaponUseMode=EWeaponUseMode_MAX),UseModeBitmask=2,AttributeEffects=((AttributeToModify=/Game/GameData/Weapons/Att_Weapon_Damage.Att_Weapon_Damage,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=0,DataTableValue=(DataTable=/Game/PatchDLC/Hibiscus/Gear/Weapon/DataTable_WeaponBalance_Hibiscus.DataTable_WeaponBalance_Hibiscus,RowName=SM_SFForce,ValueName=DamageScale_2_4F6EF14648BA8F2AE9217DAFEA60EE53),BaseValueScale=1.18)))))
 
-# Band of Sitorak - Fix Bonus Damage Description to say 30% instead of 170%.
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Shields/_Design/_Uniques/Cyttorak/UI/UIStat_Desc_Cyttorak.UIStat_Desc_Cyttorak,FormatText,0,,[skill]+30%[/skill] Weapon Damage while shield is [skill]depleted[/skill].
-
-# Fuel Economy - Fix the Movement Speed Bonus displaying double the actual effect.
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,CoreStrength_Salamander_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.18
-
-# MNTIS Damage Anointment - Fix the anointment providing double the benefit displayed in the anointment description (It'd normally display 150% but actually boost damage 300%, this makes it just actually be 300%)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Ixora/Gear/Weapons/EndGameParts/DataTable_EndGameParts_Ixora.DataTable_EndGameParts_Ixora,Operative_MNTIS_Damage,Damage_7_39142BF947B2CBE02701DBA97A4D507F,0,,3
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora/Gear/Weapons/EndGameParts/OP1/MNTISDamage/CDM_Operative_MNTISDamage.CDM_Operative_MNTISDamage,DamageValue.BaseValueScale,0,,1
-
-# Duct-Tape Mod - Fix the description for free Grenade Cooldown chance to be accurate.
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/DuctTapeMod/CDM_Operative_DuctTapeMod.CDM_Operative_DuctTapeMod,DamageSourceFilter,0,,(/Game/GameData/DamageSources/DamageSource_Grenade.DamageSource_Grenade_C,/Game/GameData/DamageSources/DamageSource_GrenadeDoT.DamageSource_GrenadeDoT_C)
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/DuctTapeMod/PassiveSkill_Operative_DuctTapeMod.Default__PassiveSkill_Operative_DuctTapeMod_C,AbilityDescription.string,0,,The first shot fired from Zane's gun has a chance to also [skillbold]fire a grenade[/skillbold]. This skill has a short cooldown. Additionally, Zane [skillbold]gains immunity[/skillbold] from his own grenades.
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/DuctTapeMod/PassiveSkill_Operative_DuctTapeMod.Default__PassiveSkill_Operative_DuctTapeMod_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0,FormatText,0,,[skillbold]Cooldown Time:[/skillbold] 8 seconds
-
-# Rage and Recover - Fix Skill Description to be Total Health instead of Missing Health.
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/HitAndRun3/Passive_Beastmaster_HitAndRun_3.Default__Passive_Beastmaster_HitAndRun_3_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Health Regeneration:[/skillbold] $VALUE$ of Total Health/sec
-
 # Fix Red Rain dropping its loot into the abyss (the entire fix).
 SparkCharacterLoadedEntry,(1,1,0,BPChar_GiganticMech1),/Game/Enemies/Mech/_Unique/TechSlaughterBoss/_Design/Character/BPChar_GiganticMech1.BPChar_GiganticMech1_C:AIBalanceState_GEN_VARIABLE,DropLootPattern,0,,LootSpawnPatternData'"/Game/Enemies/Mech/_Unique/TechSlaughterBoss/_Design/LootPools/LootSpawnPattern_TechSalughterBoss_1.LootSpawnPattern_TechSalughterBoss_1"'
 SparkCharacterLoadedEntry,(1,1,0,BPChar_GiganticMech1),/Game/Enemies/Mech/_Unique/TechSlaughterBoss/_Design/LootPools/LootSpawnPattern_TechSalughterBoss_1.LootSpawnPattern_TechSalughterBoss_1,Speed,0,,5250
@@ -2748,6 +2730,24 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/I
 
 # Light Fantastic - Add a note saying that this Action Skill receive Splash bonuses.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Phasetrance/Augments/Augment_PhaseTrance_Attack_DLC5_LFant.Augment_PhaseTrance_Attack_DLC5_LFant,Description.string,0,,Amara summons an [actionskill]Orb of Elemental Energy[/actionskill] that deals constant [skillbold]elemental damage[/skillbold] to nearby enemies. Whenever Amara damages an enemy, the [actionskill]Elemental Orb[/actionskill] automatically travels to that enemy. Whenever Amara kills an enemy, the [actionskill]Elemental Orb[/actionskill] gains [skillbold]Increased Damage[/skillbold]. Pressing {OakPC_ActionSkill} causes the [actionskill]Orb[/actionskill] to return to Amara.<br><br>[italic](This [actionskill]Action Skill[/actionskill] receives [skillbold]Splash[/skillbold] bonuses.)[/italic]
+
+# Band of Sitorak - Fix Bonus Damage Description to say 30% instead of 170%.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Shields/_Design/_Uniques/Cyttorak/UI/UIStat_Desc_Cyttorak.UIStat_Desc_Cyttorak,FormatText,0,,[skill]+30%[/skill] Weapon Damage while shield is [skill]depleted[/skill].
+
+# Fuel Economy - Fix the Movement Speed Bonus displaying double the actual effect.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PlayerCharacters/_Shared/_Design/Balance/Gunner/DataTable_Gunner_SkillsBalance.DataTable_Gunner_SkillsBalance,CoreStrength_Salamander_Mod2,DamageScalar_2_28B25EC8493D1EB6C2138A962F659BCD,0,,0.18
+
+# MNTIS Damage Anointment - Fix the anointment providing double the benefit displayed in the anointment description (It'd normally display 150% but actually boost damage 300%, this makes it just actually be 300%)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Ixora/Gear/Weapons/EndGameParts/DataTable_EndGameParts_Ixora.DataTable_EndGameParts_Ixora,Operative_MNTIS_Damage,Damage_7_39142BF947B2CBE02701DBA97A4D507F,0,,3
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora/Gear/Weapons/EndGameParts/OP1/MNTISDamage/CDM_Operative_MNTISDamage.CDM_Operative_MNTISDamage,DamageValue.BaseValueScale,0,,1
+
+# Duct-Tape Mod - Fix the description for free Grenade Cooldown chance to be accurate.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/DuctTapeMod/CDM_Operative_DuctTapeMod.CDM_Operative_DuctTapeMod,DamageSourceFilter,0,,(/Game/GameData/DamageSources/DamageSource_Grenade.DamageSource_Grenade_C,/Game/GameData/DamageSources/DamageSource_GrenadeDoT.DamageSource_GrenadeDoT_C)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/DuctTapeMod/PassiveSkill_Operative_DuctTapeMod.Default__PassiveSkill_Operative_DuctTapeMod_C,AbilityDescription.string,0,,The first shot fired from Zane's gun has a chance to also [skillbold]fire a grenade[/skillbold]. This skill has a short cooldown. Additionally, Zane [skillbold]gains immunity[/skillbold] from his own grenades.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/CloneTree/DuctTapeMod/PassiveSkill_Operative_DuctTapeMod.Default__PassiveSkill_Operative_DuctTapeMod_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0,FormatText,0,,[skillbold]Cooldown Time:[/skillbold] 8 seconds
+
+# Rage and Recover - Fix Skill Description to be Total Health instead of Missing Health.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/HitAndRun3/Passive_Beastmaster_HitAndRun_3.Default__Passive_Beastmaster_HitAndRun_3_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute,FormatText,0,,[skillbold]Health Regeneration:[/skillbold] $VALUE$ of Total Health/sec
 
 ### Add time-length to certain anointments descriptions. ###
 
