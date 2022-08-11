@@ -16,8 +16,8 @@ It includes a lot of mods from around the community and it is meant to be a simi
 ## Mod Description:
 
 QoL Changes includes:
-- Smaller HUD
 - Faster NPCs.
+- Smaller HUD
 - No loyality reward and reload notifications.
 - Ammo drops are now based on your missing ammo like in previous Borderlands games.
 - Anointment Re-roll Cost lowered to 150 Eridium.
