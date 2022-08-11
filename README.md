@@ -16,7 +16,7 @@ It includes a lot of mods from around the community and it is meant to be a simi
 ## Mod Description:
 
 QoL Changes includes:
-- Minimalistic hud (it's just smaller than vanilla hud)
+- Smaller HUD
 - Faster NPCs.
 - No loyality reward and reload notifications.
 - Ammo drops are now based on your missing ammo like in previous Borderlands games.
