@@ -27,7 +27,7 @@ QoL Changes includes:
 - Some animations speed has been increased.
  
 The Fixes includes:
-- Various of class fixes.
+- Various classes fixes.
 - Tons of Description fixes and adjustments.
 - Good Juju - Fix the secondary firing mode doing less than the primary firing mode.
 - Blood-Starved Beast - Fix the damage source to be SMG.
