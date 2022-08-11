@@ -56,13 +56,13 @@ Quest Changes:
 Loot Pool Tweaks includes:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er), to world drops.
 - Loot-o'-Gram - Butcher and Lucian's Call replaced with a chance at a drop from the Slaughter Bosses.
-- Add a 33% chance for Anointed Zealots to drop Alien-Barrel Submachine Guns.
-- Add a 33% chance for Anointed Tinks to drop Alien-Barrel Pistols.
-- Add a 33% chance for Anointed Psychos to drop Alien-Barrel Shotguns.
-- Add a 33% chance for Anointed Enforcers to drop Alien-Barrel Assault Rifles.
-- Add a 33% chance for Anointed Goons to drop Alien-Barrel Sniper Rifles.
-- Add a 33% chance for Anointed Goliaths to drop Alien-Barrel Heavy Weapons.
-- Anathema the Relentless and Scourge the Invincible Martyr - Add more chances for dedicated loot, add additional Mayhem-scaled dedicated drops.
+- Anointed Zealots has a chance to drop Alien-Barrel Submachine Guns.
+- Anointed Tinks has a chance to drop Alien-Barrel Pistols.
+- Anointed Psychos has a chance to drop Alien-Barrel Shotguns.
+- Anointed Enforcers has a chance to drop Alien-Barrel Assault Rifles.
+- Anointed Goons has a chance to drop Alien-Barrel Sniper Rifles.
+- Anointed Goliaths has a chance to drop Alien-Barrel Heavy Weapons.
+- Anathema the Relentless and Scourge the Invincible Martyr has more chances to drop their dedicated loot, add additional Mayhem-scaled dedicated drops.
 - Hemovorous the Invincible has a chance to drop two pieces of her specific loot, a bunch of money, eridium, and legendary/purple/blue gear. Also makes her produce 2 Company Men per kill and remove it from her regular loot pool.
 - Vermivorous the Invincible has a chance to drop two pieces of Mayhem 6 gear and a chance to drop a random Director's Cut item. Also more loot in general.
 - Improved the Godliath loot pool.
