@@ -68,6 +68,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Anathema the Relentless and Scourge the Invincible Martyr has more chances to drop their dedicated loot, add additional Mayhem-scaled dedicated drops.
 - Hemovorous the Invincible has a chance to drop two pieces of her specific loot, a bunch of money, eridium, and legendary/purple/blue gear. Also makes her produce 2 Company Men per kill and remove it from her regular loot pool.
 - Vermivorous the Invincible has a chance to drop two pieces of Mayhem 6 gear and a chance to drop a random Director's Cut item. Also more loot in general.
+- Make Eista retain his Invincible moniker after "We Slass! 3", increase Eista the Invincible's total health to roughly halfway between Wotan and Scourge. Add the Sacrificial Lamb to Eista loot pool. Make Eista have a chance to drop a DLC2 item of each type each, fatten up his drops with more money, eridium and a chance for legendary gear per item type.
 - Improved the Godliath loot pool.
 - Kratch has a chance to drop the Pearl of Knowledge.
 - Gigamind has a chance to drop Null-Pointer.
@@ -92,7 +93,6 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Freddie - Add the Scoville to Freddie's loot pool.
 - Jack-bot - Add Rico to Jack-bot's loot pool.
 - Yeti has a chance to drop the Short Stick, fix Short Stick only dropping at level 57.
-- Make Eista retain his Invincible moniker after "We Slass! 3", increase Eista the Invincible's total health to roughly halfway between Wotan and Scourge. Add the Sacrificial Lamb to Eista loot pool. Make Eista have a chance to drop a DLC2 item of each type each, fatten up his drops with more money, eridium and a chance for legendary gear per item type.
 - Give the singing fish in DLC2 a small chance of producing a Fish Slap.
 - Kritchy has a chance to drop the Cure.
 - Amach has a chance to drop the Initiative.
