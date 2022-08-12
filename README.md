@@ -57,7 +57,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Switch the Messy Breakup and Ten Gallon on GenIVIV and Rax.
 
 #### Loot Pool Tweaks:
-- Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er), to world drops.
+- Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er) to world drops.
 - Loot-o'-Gram - Butcher and Lucian's Call replaced with a chance at a drop from the Slaughter Bosses.
 - Anointed Zealots has a chance to drop Alien-Barrel Submachine Guns.
 - Anointed Tinks has a chance to drop Alien-Barrel Pistols.
