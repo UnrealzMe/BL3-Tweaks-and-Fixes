@@ -108,8 +108,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Quartermaster has a chance to drop the Splinter.
 - Ruiner has a chance to drop the Dakota.
 - Add Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny to the Psycho Krieg DLC unique item world drop pool.
-- Evil Lilith - Increase the odds of her dropping an item to 30% to compensate for the obnoxiously long immunity phase.
-- Optimize the drop rate of Arms Race Legendary Gear from the chests.
+- Evil Lilith - Increase the odds of her dropping an item to compensate for the obnoxiously long immunity phase.
 - Heavyweight Horker has additional chances to drop Arms Race gear.
 - The Seer has a chance to drop the Mysterious Amulet.
 - Make Captain Haunt drop at least two dedicated items per kill.
