@@ -74,8 +74,6 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Gigamind has a chance to drop Null-Pointer.
 - Private Beans has a chance to drop the Boo.
 - Rampager has a chance to drop the Cloud Kill.
-- Graveward has a chance to drop the Earworm.
-- Tyreen the Destroyer has a chance to drop the Superstreamer.
 - Switch the Quadomizer and Duc on the Rampager and Dreg/Rage.
 - Switch the Messy Breakup and Ten Gallon on GenIVIV and Rax.
 - Add the Hand of Glory to Muldock's Loot Pool.
