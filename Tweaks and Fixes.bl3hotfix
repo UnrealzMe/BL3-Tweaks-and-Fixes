@@ -262,6 +262,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Lootables/_Design/Data/Eridian/LootD
 
 ### No Wasted Equipment
 SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_Miscellaneous.Economy_Miscellaneous,CharacterWeights_Base,Value,0,,(BaseValueConstant=0.05,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
+
 ### Anointment Re-roll Cost lowered to 150 Eridium.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/_Shared/_Design/InventoryGlobals.InventoryGlobals,PartReRollCostFormula.BaseValueConstant,0,,150
 
