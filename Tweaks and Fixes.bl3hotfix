@@ -260,6 +260,9 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Lootables/_Design/Data/CoV/LootDef_C
 # Ammo Chest CoV
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Lootables/_Design/Data/Eridian/LootDef_Eridian_AmmoCrate.LootDef_Eridian_AmmoCrate,DefaultLoot.DefaultLoot[0].ItemAttachments,0,,((ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=TopMiddle),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=BottomMiddle),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=TopLeft),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=TopRight),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=BottomLeft),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=BottomRight))
 
+### No Wasted Equipment
+SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_Miscellaneous.Economy_Miscellaneous,CharacterWeights_Base,Value,0,,(BaseValueConstant=0.05,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
+
 ### Anointment Re-roll Cost lowered to 150 Eridium.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/_Shared/_Design/InventoryGlobals.InventoryGlobals,PartReRollCostFormula.BaseValueConstant,0,,150
 
@@ -1364,6 +1367,15 @@ SparkLevelPatchEntry,(1,1,1,Watership_P),/Game/Maps/Zone_2/Watership/Watership_P
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/GameplayGlobals.GameplayGlobals,MassPickupMaxDelay,0,,0.025
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/GameplayGlobals.GameplayGlobals,MassPickupMaxTotalDelay,0,,0.5
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/GameplayGlobals.GameplayGlobals,MassPickupMinDelay,0,,0.02
+
+# Pick-up Flight Speed Adjustments
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Pickups/_Shared/_Design/AutoLootContainerPickupFlyToSettings.AutoLootContainerPickupFlyToSettings,LinearSpeed,0,,1500.0
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Pickups/_Shared/_Design/AutoLootContainerPickupFlyToSettings.AutoLootContainerPickupFlyToSettings,LinearAcceleration,0,,1300.0
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Pickups/_Shared/_Design/ContainerEchoLogPickupFlyToSettings.ContainerEchoLogPickupFlyToSettings,LinearSpeed,0,,2000
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Pickups/_Shared/_Design/ContainerEchoLogPickupFlyToSettings.ContainerEchoLogPickupFlyToSettings,LinearAcceleration,0,,1000.0
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Pickups/_Shared/_Design/ContainerPickupFlyToSettings.ContainerPickupFlyToSettings,LinearSpeed,0,,2000
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Pickups/_Shared/_Design/ContainerPickupFlyToSettings.ContainerPickupFlyToSettings,LinearAcceleration,0,,1000.0
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Pickups/_Shared/_Design/DroppedEchoLogPickupFlyToSettings.DroppedEchoLogPickupFlyToSettings,LinearSpeed,0,,2000
 
 # Catch-A-Ride Digistruct Time
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/StatusEffects/CoordinatedEffects/Vehicles/BP_CE_Veh_Digistruct_In.Default__BP_CE_Veh_Digistruct_In_C,Duration,0,,0.5
