@@ -260,6 +260,9 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Lootables/_Design/Data/CoV/LootDef_C
 # Ammo Chest CoV
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Lootables/_Design/Data/Eridian/LootDef_Eridian_AmmoCrate.LootDef_Eridian_AmmoCrate,DefaultLoot.DefaultLoot[0].ItemAttachments,0,,((ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=TopMiddle),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=BottomMiddle),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=TopLeft),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=TopRight),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=BottomLeft),(ItemPool=/Game/GameData/Loot/ItemPools/ItemPool_AmmoCrate.ItemPool_AmmoCrate,AttachmentPointName=BottomRight))
 
+### No Wasted Equipment
+SparkPatchEntry,(1,2,0,),/Game/GameData/Economy/Economy_Miscellaneous.Economy_Miscellaneous,CharacterWeights_Base,Value,0,,(BaseValueConstant=0.05,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
+
 ### Anointment Re-roll Cost lowered to 150 Eridium.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/_Shared/_Design/InventoryGlobals.InventoryGlobals,PartReRollCostFormula.BaseValueConstant,0,,150
 
