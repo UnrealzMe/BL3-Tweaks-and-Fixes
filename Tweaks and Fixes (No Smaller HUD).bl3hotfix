@@ -2415,10 +2415,6 @@ SparkCharacterLoadedEntry,(1,1,0,BPChar_GiganticMech1),/Game/Enemies/Mech/_Uniqu
 # Vendor Crash Band-Aid.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/UI/VendingMachines/BPWidget_GFxItemOfTheDay.Default__BPWidget_GFxItemOfTheDay_C,VisibilityDistance,0,,0
 
-# Maurice Vendor (Week 30) - Replaced the Digi-Clone's Dahl Pistol with a Nova Berner.
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora2/Loot/VendingMachines/WeeklyPools/ItemPool_BMV_Week30.ItemPool_BMV_Week30,BalancedItems.BalancedItems[1].InventoryBalanceData,0,,/Game/Gear/Shields/_Design/_Uniques/NovaBurner/Balance/InvBalD_Shield_LGD_NovaBurner.InvBalD_Shield_LGD_NovaBurner
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora2/Loot/VendingMachines/WeeklyPools/ItemPool_BMV_Week30.ItemPool_BMV_Week30,BalancedItems.BalancedItems[1].ResolvedInventoryBalanceData,0,,/Game/Gear/Shields/_Design/_Uniques/NovaBurner/Balance/InvBalD_Shield_LGD_NovaBurner.InvBalD_Shield_LGD_NovaBurner
-
 # Make the Hunt sniper rifles and the Revengenador shield Legendary.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/SniperRifles/Jakobs/_Shared/_Design/_Unique/TheHunter/Balance/Balance_SR_JAK_Hunter.Balance_SR_JAK_Hunter,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary"'
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/SniperRifles/Jakobs/_Shared/_Design/_Unique/TheHunter/Hunted/Balance/Balance_SR_JAK_Hunted.Balance_SR_JAK_Hunted,RarityData,0,,OakInventoryRarityData'"/Game/GameData/Loot/RarityData/RarityData_05_Legendary.RarityData_05_Legendary"'
