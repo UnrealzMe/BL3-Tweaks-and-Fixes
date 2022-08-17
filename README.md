@@ -34,7 +34,6 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - S.F. Force - Fix the Secondary Firing Mode having incorrect damage compared to the primary firing mode.
 - Fix Red Rain and Blue Fire dropping their loot into the abyss.
 - Vendor Crash Fix.
-- Maurice Vendor (Week 30) - Replaced the Digi-Clone's Dahl Pistol with a Nova Berner.
 - Make the Hunt sniper rifles and the Revengenador shield Legendary.
 - Beef Plisken Loot Drop Pattern Fix.
 - Fix Polyamorous' secondary fire not receiving damage bonuses.
