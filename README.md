@@ -5,8 +5,6 @@
 
 #### Categories: Bug Fixes, General QoL, UI Changes, Quests Tweaks, Loot Pool Tweaks.
 
-#### License: https://creativecommons.org/licenses/by-sa/4.0/.
-
 This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community. it is meant to be a similar experience to a Gearbox patch.
 
 #### CREDITS: Aaron0000, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, shadowevil, ZetaDaemon, Novenic, Grimm.
