@@ -40,8 +40,10 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Fix DLC2 and DLC4 Enemies not dropping shields.
 - Fix Siren COMs sometimes spawning with a blank part.
 - Droughts Stocked Porta-Potties.
-- Shlooter - Make it always spawn with three passive stat bonuses.
-- The Shooting Star shield: Allowing it to go through the world.
+- Shlooter now always spawns with three passive stat bonuses.
+- Rough Rider now never spawns with "None" parts.
+- Company Man now always spawns with three (non-manufacturer) passive stat bonuses.
+- Allowing the Shooting Star shield to go through the world.
 
 #### Quest Changes:
 - Bumps up the gifts you get at the end of "Heart of Gold."
