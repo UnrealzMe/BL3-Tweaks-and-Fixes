@@ -4,7 +4,7 @@
 #### Version: 1.0
 #### Categories: Bug Fixes, General QoL, UI Changes, Quests Tweaks, Loot Pool Tweaks.
 
-This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community. it is meant to be a similar experience to a Gearbox patch.
+This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community and it is meant to be a similar experience to a Gearbox patch.
 
 #### CREDITS: Aaron0000, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, shadowevil, ZetaDaemon, Novenic, Grimm.
 
@@ -106,7 +106,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Quartermaster has a chance to drop the Splinter.
 - Ruiner has a chance to drop the Dakota.
 - Add Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny to the Psycho Krieg DLC unique item world drop pool.
-- Evil Lilith - Increase the odds of her dropping an item to compensate for the obnoxiously long immunity phase.
+- Increase the odds of Evil Lilith's dropping an item to compensate for the obnoxiously long immunity phase.
 - Heavyweight Harker has additional chances to drop Arms Race gear.
 - The Seer has a chance to drop the Mysterious Amulet.
 - Make Captain Haunt drop at least two dedicated items per kill.
