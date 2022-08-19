@@ -16,7 +16,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 #### QoL Changes:
 - Faster NPCs.
 - Smaller HUD.
-- No loyality reward and reload notifications.
+- No reload notification.
 - Ammo drops are now based on your missing ammo.
 - Anointment Re-roll Cost lowered to 150 Eridium.
 - Reduced the drops to anything other to your class.
