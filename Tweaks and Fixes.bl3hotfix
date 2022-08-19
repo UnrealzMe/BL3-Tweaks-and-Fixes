@@ -141,20 +141,7 @@ SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hammerlock),/Hibiscus/NonPlayerChara
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hammerlock),/Hibiscus/NonPlayerCharacters/Hammerlock/_Design/Character/BPChar_Hib_Hammerlock.Default__BPChar_Hib_Hammerlock_C:CharMoveComp,MaxLadderAscendSpeed,0,,(Value=300,BaseValue=300)
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hammerlock),/Hibiscus/NonPlayerCharacters/Hammerlock/_Design/Character/BPChar_Hib_Hammerlock.Default__BPChar_Hib_Hammerlock_C:CharMoveComp,MaxLadderDescendSpeed,0,,(Value=240,BaseValue=240)
 
-### Removed Notifications
-
-# No More Loyalty Reward Notifications
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Atlas.Default__Challenge_ManufacturerRewardReward_Atlas_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_CoV.Default__Challenge_ManufacturerRewardReward_CoV_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Dahl.Default__Challenge_ManufacturerRewardReward_Dahl_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Hyperion.Default__Challenge_ManufacturerRewardReward_Hyperion_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Jakobs.Default__Challenge_ManufacturerRewardReward_Jakobs_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Maliwan.Default__Challenge_ManufacturerRewardReward_Maliwan_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Tediore.Default__Challenge_ManufacturerRewardReward_Tediore_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Torgue.Default__Challenge_ManufacturerRewardReward_Torgue_C,NPCMailDataRowHandles,0,,()
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Challenges/Manufacturer/ManufacturerRewards/Challenge_ManufacturerRewardReward_Vladof.Default__Challenge_ManufacturerRewardReward_Vladof_C,NPCMailDataRowHandles,0,,()
-
-# No Reload Notification
+### No Reload Notification
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/GameplayGlobals.GameplayGlobals,AmmoLowPercent,0,,0.01
 
 ### Change Ammo loot to be based on missing ammo. 
