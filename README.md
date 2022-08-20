@@ -13,12 +13,12 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 #### QoL Changes:
 - Faster NPCs.
 - Smaller HUD.
-- No reload notification.
+- No "reload" notification.
 - Ammo drops are now based on your missing ammo.
 - Anointment Re-roll Cost lowered to 150 Eridium.
 - Reduced the drops to anything other to your class.
 - Increased the chances of getting uniques out of the Earl's Vendor & removed greens.
-- Always Visible Challenge Icons on the map (DLC1 Excluded).
+- Always visible challenge Icons on the map (DLC 1 Excluded).
 - Some animations speed has been increased.
 - Easier explaination of which trials is which.
  
@@ -37,15 +37,12 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Fix DLC2 and DLC4 Enemies not dropping shields.
 - Fix Siren COMs sometimes spawning with a blank part.
 - Droughts Stocked Porta-Potties.
-- Shlooter now always spawns with three passive stat bonuses.
-- Rough Rider now never spawns with "None" parts.
-- Company Man now always spawns with three (non-manufacturer) passive stat bonuses.
 - Allowing the Shooting Star shield to go through the world.
 
 #### Quest Changes:
 - Bumps up the gifts you get at the end of "Heart of Gold."
 - Buffs up the amount of cash you get from the malfunctioning slot machines during the DLC2 mission "Sisterly Love."
-- Ava's 'Invasion of Privacy' Chest is legendary in addition to The Boo.
+- Ava's 'Invasion of Privacy' chest contains a legendary item in addition to The Boo.
 - Prisa's Pop's loot stash has a guaranteed legendary.
 - Vault of the Serpet ammo crates contain Eridium.
 - Wainwright's chests in Knotty Peak are Jakobs-Only.
@@ -56,7 +53,6 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 
 #### Loot Pool Tweaks:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er) to world drops.
-- Loot-o'-Gram - Butcher and Lucian's Call replaced with a chance at a drop from the Slaughter Bosses.
 - Anointed Zealots has a chance to drop Alien-Barrel Submachine Guns.
 - Anointed Tinks has a chance to drop Alien-Barrel Pistols.
 - Anointed Psychos has a chance to drop Alien-Barrel Shotguns.
@@ -86,8 +82,8 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Toby Bordell has a chance to drop the Brad Luck.
 - Fabricator has a chance to drop the Melt-Facer.
 - Add Ember's Purge to Loco Chantelle's loot pool.
-- Freddie - Add the Scoville to Freddie's loot pool.
-- Jack-bot - Add Rico to Jack-bot's loot pool.
+- Freddie has a chance to drop the Scoville.
+- Jack-bot has a chance to drop the Rico.
 - Yeti has a chance to drop the Short Stick, fix Short Stick only dropping at level 57.
 - Give the singing fish in DLC2 a small chance of producing a Fish Slap.
 - Kritchy has a chance to drop the Cure.
@@ -105,7 +101,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Bellik Primis has a chance to drop the Core Buster.
 - Quartermaster has a chance to drop the Splinter.
 - Ruiner has a chance to drop the Dakota.
-- Add Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny to the Psycho Krieg DLC unique item world drop pool.
+- Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny been added to the Psycho Krieg DLC unique item world drop pool.
 - Increase the odds of Evil Lilith's dropping an item to compensate for the obnoxiously long immunity phase.
 - Heavyweight Harker has additional chances to drop Arms Race gear.
 - The Seer has a chance to drop the Mysterious Amulet.
