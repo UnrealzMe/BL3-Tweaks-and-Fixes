@@ -15,16 +15,16 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Smaller HUD.
 - No "reload" notification.
 - Ammo drops are now based on your missing ammo.
-- Anointment Re-roll Cost lowered to 150 Eridium.
+- Anointment re-roll cost lowered to 150 Eridium.
 - Reduced the drops to anything other to your class.
-- Increased the chances of getting uniques out of the Earl's Vendor & removed greens.
-- Always visible challenge Icons on the map (DLC 1 Excluded).
+- Increased the chances of getting uniques out of the Earl's vendor & removed greens.
+- Always visible challenge Icons on the map (DLC 1 excluded).
 - Some animations speed has been increased.
 - Easier explaination of which trials is which.
  
 #### The Fixes:
 - Various class fixes.
-- Various Description fixes and adjustments.
+- Various description fixes and adjustments.
 - Good Juju - Fix the secondary firing mode doing less than the primary firing mode.
 - Blood-Starved Beast - Fix the damage source to be SMG.
 - Woodblocker  - Add the missing critical damage and vertical recoil bonuses back.
@@ -36,7 +36,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Fix Polyamorous' secondary fire not receiving damage bonuses.
 - Fix DLC2 and DLC4 Enemies not dropping shields.
 - Fix Siren COMs sometimes spawning with a blank part.
-- Droughts Stocked Porta-Potties.
+- Droughts stocked porta-potties.
 - Allowing the Shooting Star shield to go through the world.
 
 #### Quest Changes:
