@@ -4,7 +4,7 @@
 #### Version: 1.0
 #### Categories: Bug Fixes, General QoL, UI Changes, Quests Tweaks, Loot Pool Tweaks.
 
-This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community and it is meant to be a similar experience to a Gearbox patch.
+This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community.
 
 #### CREDITS: Aaron0000, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, shadowevil, ZetaDaemon, Novenic, Grimm.
 
