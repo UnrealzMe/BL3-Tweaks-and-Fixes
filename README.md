@@ -20,7 +20,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Increased the chances of getting uniques out of the Earl's vendor & removed greens.
 - Always visible challenge Icons on the map (DLC 1 excluded).
 - Some animations speed has been increased.
-- Easier explaination of which trials is which.
+- Easier explanation of which trials is which.
  
 #### The Fixes:
 - Various class fixes.
