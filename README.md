@@ -18,7 +18,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Anointment re-roll cost lowered to 150 Eridium.
 - Reduced the drops to anything other to your class.
 - Increased the chances of getting uniques out of the Earl's vendor & removed greens.
-- Always visible challenge Icons on the map (DLC 1 excluded).
+- Always visible challenge icons on the map (DLC1 excluded).
 - Some animations speed has been increased.
 - Easier explanation of which trials is which.
  
@@ -28,13 +28,13 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Good Juju - Fix the secondary firing mode doing less than the primary firing mode.
 - Blood-Starved Beast - Fix the damage source to be SMG.
 - Woodblocker  - Add the missing critical damage and vertical recoil bonuses back.
-- S.F. Force - Fix the Secondary Firing Mode having incorrect damage compared to the primary firing mode.
+- S.F. Force - Fix the secondary firing mode having incorrect damage compared to the primary firing mode.
 - Fix Red Rain and Blue Fire dropping their loot into the abyss.
 - Vendor Crash Fix.
 - Make the Hunt sniper rifles and the Revengenador shield Legendary.
-- Beef Plisken Loot Drop Pattern Fix.
+- Beef Plisken loot drop pattern Fix.
 - Fix Polyamorous' secondary fire not receiving damage bonuses.
-- Fix DLC2 and DLC4 Enemies not dropping shields.
+- Fix DLC2 and DLC4 enemies not dropping shields.
 - Fix Siren COMs sometimes spawning with a blank part.
 - Droughts stocked porta-potties.
 - Allowing the Shooting Star shield to go through the world.
