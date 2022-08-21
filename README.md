@@ -13,7 +13,6 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 #### QoL Changes:
 - Faster NPCs.
 - Minimalistic UI.
-- Vehicle scales with mayhem level.
 - Ammo drops are now based on your missing ammo.
 - Anointment re-roll cost lowered to 150 Eridium.
 - Reduced the drops to anything other to your class.
