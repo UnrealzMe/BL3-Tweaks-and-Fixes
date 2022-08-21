@@ -2121,9 +2121,9 @@ SparkEarlyLevelPatchEntry,(1,1,0,Prologue_P),/Game/Maps/Zone_0/Prologue/Prologue
 # Allowing the Shooting Star shield to go through the world would be a great way of bringing it back into usage.
 SparkPatchEntry,(1,1,0,),/Game/Gear/Shields/_Design/_Uniques/ShootingStar/LightProjectile_Shield_ShootingStar.Default__LightProjectile_Shield_ShootingStar_C,bPenetratesWorld,0,,true
 
-######################################
+#####################################
 ### Description fixes/Adjustments ###
-######################################
+#####################################
 
 ### Add trial names to the galaxy map proving grounds.
 
@@ -2141,8 +2141,7 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/Plane
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-7.PlanetMapData_ProvingGround-7,DisplayName,0,,Ancre du précipice (Discipline)
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-8.PlanetMapData_ProvingGround-8,DisplayName,0,,Lien imprévisible (Instinct)
 
-# Rename "Mayhem 11" Modifier and change the description.
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/UI/Enemies/ModUiStat_Mayhem2_ToEleven.ModUiStat_Mayhem2_ToEleven,Text,0,,[NONE] Nay-hem
+# Mayhem 11 description changes.
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/UI/Enemies/ModUiStat_Mayhem2_ToEleven.ModUiStat_Mayhem2_ToEleven,Description,0,,Nothing crazy here. Shoot and loot without the extra bells and whistles.
 
 # Guardian 4N631 - Make description more accurate.
