@@ -140,8 +140,66 @@ SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hammerlock),/Hibiscus/NonPlayerChara
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hammerlock),/Hibiscus/NonPlayerCharacters/Hammerlock/_Design/Character/BPChar_Hib_Hammerlock.Default__BPChar_Hib_Hammerlock_C:CharMoveComp,MaxLadderAscendSpeed,0,,(Value=300,BaseValue=300)
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Hib_Hammerlock),/Hibiscus/NonPlayerCharacters/Hammerlock/_Design/Character/BPChar_Hib_Hammerlock.Default__BPChar_Hib_Hammerlock_C:CharMoveComp,MaxLadderDescendSpeed,0,,(Value=240,BaseValue=240)
 
-### No Reload Notification
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/GameplayGlobals.GameplayGlobals,AmmoLowPercent,0,,0.01
+### Mayhem level vehicle scale.
+
+# Mayhem 1
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[0].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,1.65
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,1,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,2.25
+
+# Mayhem 2
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[1].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,2.3
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,2,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,3.5
+
+# Mayhem 3
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[2].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,2.95
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,3,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,4.75
+
+# Mayhem 4
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[3].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,3.6
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,4,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,6
+
+# Mayhem 5
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[4].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,4.25
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,5,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,7.25
+
+# Mayhem 6
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[5].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,4.9
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,6,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,8.5
+
+# Mayhem 7
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[6].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,5.55
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,7,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,9.75
+
+# Mayhem 8
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[7].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_VeryHard.ModSet_Mayhem2_VeryHard"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,6.2
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,8,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,11
+
+# Mayhem 9
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[8].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_VeryHard.ModSet_Mayhem2_VeryHard"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,6.85
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,9,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,12.25
+
+# Mayhem 10
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[9].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_EAsy.ModSet_Mayhem2_EAsy"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Hard.ModSet_Mayhem2_Hard"',MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_VeryHard.ModSet_Mayhem2_VeryHard"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,7.5
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,10,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,13.5
+
+# Mayhem 11
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/OverrideModSet_Mayhem2.OverrideModSet_Mayhem2,PerLevelOverrides.PerLevelOverrides[10].RandomModifierSlotsOverride,0,,(MayhemModifierSlotDataAsset'"/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Mayhem11.ModSet_Mayhem2_Mayhem11"')
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,11,DamageDealtScalarVehicles_103_5739171948322B35CDA36487F78AF0CE,0,,4
+SparkPatchEntry,(1,2,0,),/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,11,DamageTakenScalarVehicles_104_B75AB4EC482624FDEAAF31B0FA369A77,0,,13.5
+
+# Rename "Mayhem 11" Modifier and change the description.
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/UI/Enemies/ModUiStat_Mayhem2_ToEleven.ModUiStat_Mayhem2_ToEleven,Text,0,,[NONE] Nay-hem
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/UI/Enemies/ModUiStat_Mayhem2_ToEleven.ModUiStat_Mayhem2_ToEleven,Description,0,,Nothing crazy here. Shoot and loot without the extra bells and whistles.
 
 ### Change Ammo loot to be based on missing ammo. 
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Attributes/Att_Health_Resolver_NeedandGreed.Att_Health_Resolver_NeedandGreed:ResourceWeightAttributeValueResolver_0,ResourceThreshold,0,,(BaseValueConstant=0.5,DataTableValue=(DataTable=None,RowName=None,ValueName=None))
@@ -1530,341 +1588,195 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSki
 # Making War Loader Reduce Burst Fire Delay instead of increasing it.
 # War Loader
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Pet/Loader/_Design/StatusEffects/Status_Beastmaster_PetLoaderBuff_Evo2.Status_Beastmaster_PetLoaderBuff_Evo2,AttributeEffects.AttributeEffects[0].BaseModifierValue,0,,(BaseValueConstant=0.0,BaseValueAttribute=/Game/PlayerCharacters/_Shared/_Design/Attributes/Beastmaster/Att_Beastmaster_PetBuffPassiveScale.Att_Beastmaster_PetBuffPassiveScale,AttributeInitializer=None,BaseValueScale=0.12)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Pet/Loader/_Design/StatusEffects/Status_Beastmaster_PetLoaderBuff_Evo2.Status_Beastmaster_PetLoaderBuff_Evo2,AttributeEffects.AttributeEffects[1].BaseModifierValue,0,,(BaseValueConstant=0.0,BaseValueAttribute=/Game/PlayerCharacters/_Shared/_Design/Attributes/Beastmaster/Att_Beastmaster_PetBuffPassiveScale.Att_Beastmaster_PetBuffPassiveScale,AttributeInitializer=None,BaseValueScale=-0.12)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,StatusEffectData,0,,/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Pet/Loader/_Design/StatusEffects/Status_Beastmaster_PetLoaderBuff_Evo2.Status_Beastmaster_PetLoaderBuff_Evo2
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,Attribute,0,,/Game/GameData/Weapons/Att_Weapon_BurstFireDelay.Att_Weapon_BurstFireDelay
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bDisplayAsPercentage,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bDisplayPlusSign,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,FormatText,0,,[skillbold]Burst Fire Delay:[/skillbold] $VALUE$,
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,BasePriority,0,,0.5
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2,Description,0,,FL4K's [actionskill]ION Loader[/actionskill] upgrades into a [actionskill]WAR Loader[/actionskill], discarding its sniper rifle and equipping an [skillbold]Incendiary Shotgun[/skillbold] and [skillbold]Grenades[/skillbold]. While accompanied by the [actionskill]WAR Loader[/actionskill], FL4K gains increased [skillbold]Fire Rate[/skillbold] and reduced [skillbold]Burst Fire Delay[/skillbold].<br><br>When FL4K issues an [skillbold]Attack Command[/skillbold], the [actionskill]WAR Loader[/actionskill] unleashes a [skillbold]barrage of missiles[/skillbold] at the target.
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo2.Augment_Pet_Loader_Evo2:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Make the Pets and Skills show the mayhem scaling they gain.
 # Success Imminent
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_02/Passive_Beastmaster_DLCSkill_2.Default__Passive_Beastmaster_DLCSkill_2_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Lethal Force Authorized
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/Passives/DLCSkill_07/Passive_Beastmaster_DLCSkill_7.Default__Passive_Beastmaster_DLCSkill_7_C:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Dominance
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_1',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Passives/Bond10/Passive_Beastmaster_Bond10.Default__Passive_Beastmaster_Bond10_C:MayhemUIStat_Pet,FormatText,0,,[skillbold]Nova[/skillbold] [endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Jabber
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon.Augment_Pet_Jabbermon:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Jabber Beefcake
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Beefcake.Augment_Pet_Jabbermon_Beefcake:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Jabber Gunslinger
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Jabbermon_Gunslinger.Augment_Pet_Jabbermon_Gunslinger:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Skag
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag.Augment_Pet_Skag:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Skag Badass
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_Badass.Augment_Pet_Skag_Badass:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Skag Horned
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Skag_GreatHorned.Augment_Pet_Skag_GreatHorned:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 
 # Spiderant
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant.Augment_Pet_Spiderant:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Spiderant Badass
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_Badass.Augment_Pet_Spiderant_Badass:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Spiderant King
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_Shared/_Design/Character/Augments/Augment_Pet_Spiderant_King.Augment_Pet_Spiderant_King:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Loader
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader.Augment_Pet_Loader:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Loader 1
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_MayhemModifier'/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPet_72_0DD7977D44C4A71D0A6B56B7884E023C)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ixora/ActionSkill/Augments/Augment_Pet_Loader_Evo1.Augment_Pet_Loader_Evo1:MayhemUIStat_Pet,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 ## Amara
@@ -1872,7 +1784,6 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Beastmaster/_DLC/Ix
 # Samsara 
 # The card states it provides Health Regen based on Max health, but currently it's Missing Health Regen.
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/StatusEffect_Siren_Samsara.StatusEffect_Siren_Samsara,AttributeEffects.AttributeEffects[1].AttributeData,0,,/Game/GameData/Attributes/Health/Att_HealthPassivePercentRegenerationRate.Att_HealthPassivePercentRegenerationRate
-
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/Samsara/PassiveSkill_Siren_Samsara.Default__PassiveSkill_Siren_Samsara_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,Attribute,0,,/Game/GameData/Attributes/Health/Att_HealthPassivePercentRegenerationRate.Att_HealthPassivePercentRegenerationRate
 
 # Tempest
@@ -1884,472 +1795,272 @@ SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Pas
 
 # Remnant
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/RuinTree/Remnant/PassiveSkill_Siren_Remnant.Default__PassiveSkill_Siren_Remnant_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Indiscriminate
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_1',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_2',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/ShieldOfThought/PassiveSkill_Siren_ShieldOfThought.Default__PassiveSkill_Siren_ShieldOfThought_C:MayhemUIStat_Passive,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Catharsis
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.01
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/ManifestTree/FearPassThroughMe/PassiveSkill_Siren_FearPassThroughMe.Default__PassiveSkill_Siren_FearPassThroughMe_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Do Unto Others
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C,StatDataItems,0,,(UIStatData_Attribute'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:UIStatData_Attribute_0',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/DoUntoOthers/PassiveSkill_Siren_DoUntoOthers.Default__PassiveSkill_Siren_DoUntoOthers_C:MayhemUIStat_Passive,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Revelation
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Effect/Augment_PhaseTrance_Effect_BrightStar.Augment_PhaseTrance_Effect_BrightStar:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Guardian Angel
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Passives/BrawlTree/GuardianAngel/PassiveSkill_Siren_GuardianAngel.Default__PassiveSkill_Siren_GuardianAngel_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Unweave the Rainbow
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Body and Mind
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_10/Passive_Siren_DLCSkill_10.Default__Passive_Siren_DLCSkill_10_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Free the Soul
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.01
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_11/Passive_Siren_DLCSkill_11.Default__Passive_Siren_DLCSkill_11_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Ties That Bind
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:UIStatData_OakPassiveAbilityAttributeInitializer_1',UIStatData_MayhemModifier'/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_Shared/_Design/Phasetrance/Components/Attack/Augment_PhaseTrance_Attack_Grasp_Web.Augment_PhaseTrance_Attack_Grasp_Web:MayhemUIStat_Passive,FormatText,0,,[skillbold]Link[/skillbold] [endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 ## Moze
 
 # Fired Up
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/StatusEffect_Gunner_DLCSkill_7.StatusEffect_Gunner_DLCSkill_7:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.DataTable,0,,/Game/PlayerCharacters/_Shared/_Design/Balance/_Shared/DataTable_Shared_PassiveSkillBalance.DataTable_Shared_PassiveSkillBalance
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/StatusEffect_Gunner_DLCSkill_7.StatusEffect_Gunner_DLCSkill_7:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.RowName,0,,DamageReduction
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/StatusEffect_Gunner_DLCSkill_7.StatusEffect_Gunner_DLCSkill_7:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.ValueName,0,,FivePointMedium_21_6CE8CC0645575BFC0483689FFA697E8A
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,StatusEffectData,0,,/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/StatusEffect_Gunner_DLCSkill_7.StatusEffect_Gunner_DLCSkill_7
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,Attribute,0,,/Game/GameData/Weapons/Att_Weapon_BurstFireDelay.Att_Weapon_BurstFireDelay
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bDisplayAsPercentage,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bDisplayPlusSign,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,FormatText,0,,[skillbold]Burst Fire Delay:[/skillbold] $VALUE$,
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,BasePriority,0,,0.75
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_07/Passive_Gunner_DLCSkill_7.Default__Passive_Gunner_DLCSkill_7_C,AbilityDescription,0,,Whenever Moze or [actionskill]Iron Bear[/actionskill] applies a [skillbold]Status Effect[/skillbold] to an enemy, she gains increased [skillbold]Fire Rate[/skillbold] and reduced [skillbold]Burst Fire Delay[/skillbold] for a short time. This effect stacks.
 
 # Skag Den
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_MayhemModifier'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/FireInTheSkagDen/PassiveSkill_Gunner_FireInSkagDen.Default__PassiveSkill_Gunner_FireInSkagDen_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Big Surplus
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/Passives/DLCSkill_02/Passive_Gunner_DLCSkill_2.Default__Passive_Gunner_DLCSkill_2_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Short Fuse
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarPassive_115_6A30229E4CC04F751ED01CB64A71880F)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_DemolitionWoman/ShortFuse/PassiveSkill_IronBear_ShortFuse.Default__PassiveSkill_IronBear_ShortFuse_C:MayhemUIStat_Passive,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Baby Nukes
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_DLC/Ixora/HardPoints/Augments/Augment_IronCub_4.Augment_IronCub_4:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 ## Zane
 
 # Fixing Sheer Will so the bonus cooldown on crit also works for Mntis.
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus,AttributeEffects,0,,((AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_Design/Attributes/Operative/Att_ActionSkill_Operative_CooldownRate_Skill2.Att_ActionSkill_Operative_CooldownRate_Skill2"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_2"'),(AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_Design/Attributes/Operative/Att_ActionSkill_Operative_CooldownRate_Skill3.Att_ActionSkill_Operative_CooldownRate_Skill3"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_0"'),(AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_Design/Attributes/Operative/Att_ActionSkill_Operative_CooldownRate_Skill1.Att_ActionSkill_Operative_CooldownRate_Skill1"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_1"'),(AttributeData=GbxAttributeData'"/Game/PlayerCharacters/_Shared/_DLC/Ixora/Balance/Operative/Att_ActionSkill_Operative_CooldownRate_Skill4.Att_ActionSkill_Operative_CooldownRate_Skill4"',ModifierType=Scale,BaseModifierValue=(BaseValueConstant=0.0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1.0),Mutator=OakPassiveAbilityAttributeEffectMutatorData'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus:OakPassiveAbilityAttributeEffectMutatorData_3"'))
-
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_10/StatusEffect_Operative_DLCSkill_10_Bonus.StatusEffect_Operative_DLCSkill_10_Bonus,AttributeEffects.AttributeEffects[3].Mutator.Object..PerGradeUpgrade,0,,(DataTableValue=(DataTable=Datatable'"/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/Table_Operative_DLCPassiveContantValues.Table_Operative_DLCPassiveContantValues"',RowName="DLCSkill10_CooldownRateBonus",ValueName="Base_17_28B25EC8493D1EB6C2138A962F659BCD"))
 
 # Violent Violence
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/StatusEffect_Operative_ViolentViolence.StatusEffect_Operative_ViolentViolence:Mutator_OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.RowName,0,,ReloadTime
-
 SparkPatchEntry,(1,1,0,),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/StatusEffect_Operative_ViolentViolence.StatusEffect_Operative_ViolentViolence:Mutator_OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.ValueName,0,,FivePointLarge_23_BD95FA214ED4F962354446B3B30B08AD
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,StatusEffectData,0,,/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/StatusEffect_Operative_ViolentViolence.StatusEffect_Operative_ViolentViolence
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,Attribute,0,,/Game/GameData/Weapons/Att_Weapon_BurstFireDelay.Att_Weapon_BurstFireDelay
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bDisplayAsPercentage,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bDisplayPlusSign,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,FormatText,0,,[skillbold]Burst Fire Delay:[/skillbold] $VALUE$,
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,BasePriority,0,,0.5
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/DroneTree/ViolentViolence/PassiveSkill_Operative_ViolentViolence.Default__PassiveSkill_Operative_ViolentViolence_C,AbilityDescription,0,,[skillbold]Kill Skill[/skillbold]. After killing an enemy, Zane gains increased [skillbold]Fire Rate[/skillbold] and reduced [skillbold]Burst Fire Delay[/skillbold] for a few seconds. This effect stacks twice.
 
 # Domino Effect
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/StatusEffect_Operative_DLCSkill_16.StatusEffect_Operative_DLCSkill_16:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.DataTable,0,,/Game/PlayerCharacters/_Shared/_Design/Balance/_Shared/DataTable_Shared_PassiveSkillBalance.DataTable_Shared_PassiveSkillBalance
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/StatusEffect_Operative_DLCSkill_16.StatusEffect_Operative_DLCSkill_16:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.RowName,0,,ReloadTime
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/StatusEffect_Operative_DLCSkill_16.StatusEffect_Operative_DLCSkill_16:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.ValueName,0,,FivePointMedium_21_6CE8CC0645575BFC0483689FFA697E8A
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/StatusEffect_Operative_DLCSkill_16_Addl.StatusEffect_Operative_DLCSkill_16_Addl:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.RowName,0,,ReloadTime
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/StatusEffect_Operative_DLCSkill_16_Addl.StatusEffect_Operative_DLCSkill_16_Addl:OakPassiveAbilityAttributeEffectMutatorData_0,PerGradeUpgrade.DataTableValue.ValueName,0,,FivePointMedium_21_6CE8CC0645575BFC0483689FFA697E8A
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_0',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,StatusEffectData,0,,/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/StatusEffect_Operative_DLCSkill_16.StatusEffect_Operative_DLCSkill_16
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,Attribute,0,,/Game/GameData/Weapons/Att_Weapon_BurstFireDelay.Att_Weapon_BurstFireDelay
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,bDisplayAsPercentage,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,bDisplayPlusSign,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,FormatText,0,,[skillbold]Burst Fire Delay:[/skillbold] $VALUE$,
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,BasePriority,0,,150.0
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C:StatDataItems_UIStatData_OakPassiveAbilityAttribute_1,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/Passives/DLCSkill_16/Passive_OperativeDLC_16.Default__Passive_OperativeDLC_16_C,AbilityDescription,0,,Whenever Zane scores a [skillbold]Critical Hit[/skillbold], he gains increased [skillbold]Fire Rate[/skillbold] and [skillbold]Reload Speed[/skillbold] and reduced [skillbold]Burst Fire Delay[/skillbold] for a short time. If he scores a [skillbold]Critical Hit[/skillbold] with his [actionskill]Action Skill[/actionskill], he [skillbold]doubles this effect[/skillbold].
 
 # Best Served Cold
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,BasePriority,0,,0.001
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/Passives/BarrierTree/NotOrdinaryOrdnance/PassiveSkill_Operative_NotOrdinaryOrdnance.Default__PassiveSkill_Operative_NotOrdinaryOrdnance_C:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Doppelbanger
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_PanicButton.AugmentData_Operative_DigiClone_PanicButton:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Binary System
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_MayhemModifier'/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_Shared/_Design/ActionSkills/Gadget_DigiClone/Mods/AugmentData_Operative_DigiClone_TrapCard.AugmentData_Operative_DigiClone_TrapCard:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Wetwork
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3,StatDataItems,0,,(UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer',UIStatData_OakPassiveAbilityAttributeInitializer'/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer_0',UIStatData_MayhemModifier'/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill')
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,DataTableValue,0,,(DataTable=/Game/PatchDLC/Mayhem2/Abilities/CoreModifierSets/Table_Mayhem2CoreModifierSet.Table_Mayhem2CoreModifierSet,ValueName=DamageScalarActionSkill_60_39AF483140740A38FC71BA897155CBFF)
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,bSubtractOne,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,RoundingMode,0,,None
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,bUseFormatText,0,,true
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,bDisplayAsPercentage,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,bDisplayPlusSign,0,,false
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,SectionName,0,,Primary
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,BasePriority,0,,0.1
-
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Operative/_DLC/Ixora/ActionSkills/Mods/Augment_Operative_ShouldCannon_Augment3.Augment_Operative_ShouldCannon_Augment3:MayhemUIStat_ActionSkill,FormatText,0,,[endgame]Bonus Mayhem Scaling:[/endgame] x$VALUE$
 
 # Plus Ultra
@@ -2810,9 +2521,6 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Vladof/_Shared/_Design
 # Bitch
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Hyperion/_Shared/_Design/_Unique/Bitch/UIStat_RedText_Bitch.UIStat_RedText_Bitch,Text,0,,[Flavor]If you can't handle me at my worst...[/Flavor] <p><p>    [nameplate_enemy_slight][italic](All effects on card.)[/italic][/nameplate_enemy_slight]
 
-# Black Flame
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/_Unique/Brew/UIStat_RedText_Shroom.UIStat_RedText_Shroom,Text,0,,[Flavor]A virgin lit the candle.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](Just mission-related.)[/italic][/nameplate_enemy_slight]
-
 # Bone Shredder
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Pistols/Vladof/_Shared/_Design/_Unique/BoneShredder/UIStat_RedText_BoneShredder.UIStat_RedText_BoneShredder,Text,0,,[Flavor]THE LEAD WIND BLOWS![/Flavor] <p><p>    [nameplate_enemy_slight][italic](All effects on card.)[/italic][/nameplate_enemy_slight]
 
@@ -3067,9 +2775,6 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/AssaultRifles/Dahl/_Shared/_Design/_
 
 # Kenulox
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SniperRifles/Dahl/_Shared/_Design/_Unique/WorldDestroyer/UIStat_RedText_WorldDestroyer.UIStat_RedText_WorldDestroyer,Text,0,,[Flavor]Live life like it's early access.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](1-ammo shot cost, alt fire toggles zoom.)[/italic][/nameplate_enemy_slight]
-
-# Kevin's Chilly
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/SMGs/Maliwan/_Shared/_Design/_Unique/Kevins/UIStat_RedText_Kevins.UIStat_RedText_Kevins,Text,0,,[Flavor]This one goes to keleven.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](Just mission item.)[/italic][/nameplate_enemy_slight]
 
 # Kill-o'-the-Wisp
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/Shotguns/Maliwan/_Shared/_Design/_Unique/Wisp/UIStat_RedText_Wisp.UIStat_RedText_Wisp,Text,0,,[Flavor]Some say it can lead you to your fate.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](Slow sphere which detonates on fixed distance.)[/italic][/nameplate_enemy_slight]
@@ -3519,7 +3224,7 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/LoveDrill/U
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Steam/Gear/Weapons/SteamGun/UIStat_RedText_ShortStick.UIStat_RedText_ShortStick,Text,0,,[Flavor]A small price to pay.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](Chance to fire 2 additional spiralling shots and deal [fire]incendiary[/fire] damage.)[/italic][/nameplate_enemy_slight]
 
 # Seventh Sense (prefixed mission)
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheSeventhSense/UIStat_RedText_TheSeventhSense.UIStat_RedText_TheSeventhSense,Text,0,,[Flavor]Do you see?[/Flavor] <p><p>    [nameplate_enemy_slight][italic](Mission item, reveals ghosts during ADS.)[/italic][/nameplate_enemy_slight]
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheSeventhSense/UIStat_RedText_TheSeventhSense.UIStat_RedText_TheSeventhSense,Text,0,,[Flavor]Do you see?[/Flavor] <p><p>    [nameplate_enemy_slight][italic](Reveals ghosts during ADS.)[/italic][/nameplate_enemy_slight]
 
 # Seventh Sense (prefixed legendary)
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Hibiscus/Gear/Weapon/_Unique/TheSeventhSense/UIStat_RedText_TheSeventhSense_Legendary.UIStat_RedText_TheSeventhSense_Legendary,Text,0,,[Flavor]Something so close, and yet... so distant.[/Flavor] <p><p>    [nameplate_enemy_slight][italic](On hit, creates additional wandering projectiles; reloading sends them back to enemy.)[/italic][/nameplate_enemy_slight]
@@ -3935,24 +3640,6 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/ClassMods/_Design/ItemPools/Ite
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/ClassMods/_Design/ItemPools/ItemPool_ClassMods_Beastmaster_05_Legendary.ItemPool_ClassMods_Beastmaster_05_Legendary,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster_05_Legendary.InvBalD_ClassMod_Beastmaster_05_Legendary,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Beastmaster_05_Legendary.InvBalD_ClassMod_Beastmaster_05_Legendary"',Weight=(BaseValueConstant=6,BaseValueAttribute=,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/BSM/InvBalD_CM_Beastmaster_Raid1.InvBalD_CM_Beastmaster_Raid1,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/BSM/InvBalD_CM_Beastmaster_Raid1.InvBalD_CM_Beastmaster_Raid1"',Weight=(BaseValueConstant=1,BaseValueAttribute=/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/Mayhem4/Att_CharacterWeight_Beastmaster_M4.Att_CharacterWeight_Beastmaster_M4,BaseValueScale=1)))
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/ClassMods/_Design/ItemPools/ItemPool_ClassMods_Siren_05_Legendary.ItemPool_ClassMods_Siren_05_Legendary,BalancedItems,0,,((InventoryBalanceData=/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_05_Legendary.InvBalD_ClassMod_Siren_05_Legendary,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/Gear/ClassMods/_Design/BalanceDefs/InvBalD_ClassMod_Siren_05_Legendary.InvBalD_ClassMod_Siren_05_Legendary"',Weight=(BaseValueConstant=5,BaseValueAttribute=,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/SRN/InvBalD_CM_Siren_Raid1.InvBalD_CM_Siren_Raid1,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Raid1/Gear/CM/_D/PartSets/_U/SRN/InvBalD_CM_Siren_Raid1.InvBalD_CM_Siren_Raid1"',Weight=(BaseValueConstant=1,BaseValueAttribute=/Game/PatchDLC/Raid1/GameData/Loot/ItemPoolExpansions/Mayhem4/Att_CharacterWeight_Siren_M4.Att_CharacterWeight_Siren_M4,BaseValueScale=1)))
 
-# Add a 33% chance for Anointed Zealots to drop Alien-Barrel Submachine Guns.
-SparkCharacterLoadedEntry,(1,1,0,BPChar_Punk_Anointed),/Game/Enemies/Punk_Female/Anointed/_Design/Character/BPChar_Punk_Anointed.BPChar_Punk_Anointed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/ItemPoolList_AnointedEnemyGunsGear.ItemPoolList_AnointedEnemyGunsGear"',PoolProbability=(BaseValueConstant=1,DataTableValue=,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/SMG/ItemPool_SMGs_ETech_All.ItemPool_SMGs_ETech_All"',PoolProbability=(BaseValueConstant=0.33),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1)))
-
-# Add a 33% chance for Anointed Tinks to drop Alien-Barrel Pistols.
-SparkCharacterLoadedEntry,(1,1,0,BPChar_TinkAnointed),/Game/Enemies/Tink/Anointed/_Design/Character/BPChar_TinkAnointed.BPChar_TinkAnointed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/ItemPoolList_AnointedEnemyGunsGear.ItemPoolList_AnointedEnemyGunsGear"',PoolProbability=(BaseValueConstant=1,DataTableValue=,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/Pistols/ItemPool_Pistols_ETech_All.ItemPool_Pistols_ETech_All"',PoolProbability=(BaseValueConstant=0.33),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1)))
-
-# Add a 33% chance for Anointed Psychos to drop Alien-Barrel Shotguns.
-SparkCharacterLoadedEntry,(1,1,0,BPChar_PsychoAnointed),/Game/Enemies/Psycho_Male/Anointed/_Design/Character/BPChar_PsychoAnointed.BPChar_PsychoAnointed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/ItemPoolList_AnointedEnemyGunsGear.ItemPoolList_AnointedEnemyGunsGear"',PoolProbability=(BaseValueConstant=1,DataTableValue=,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/Shotguns/ItemPool_Shotguns_ETech_All.ItemPool_Shotguns_ETech_All"',PoolProbability=(BaseValueConstant=0.33),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1)))
-
-# Add a 33% chance for Anointed Enforcers to drop Alien-Barrel Assault Rifles.
-SparkCharacterLoadedEntry,(1,1,0,BPChar_EnforcerAnointed),/Game/Enemies/Enforcer/Anointed/_Design/Character/BPChar_EnforcerAnointed.BPChar_EnforcerAnointed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/ItemPoolList_AnointedEnemyGunsGear.ItemPoolList_AnointedEnemyGunsGear"',PoolProbability=(BaseValueConstant=1,DataTableValue=,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/AssaultRifles/ItemPool_AssaultRifles_ETech_Alll.ItemPool_AssaultRifles_ETech_Alll"',PoolProbability=(BaseValueConstant=0.33),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1)))
-
-# Add a 33% chance for Anointed Goons to drop Alien-Barrel Sniper Rifles.
-SparkCharacterLoadedEntry,(1,1,0,BPChar_GoonAnointed),/Game/Enemies/Goon/Anointed/_Design/Character/BPChar_GoonAnointed.BPChar_GoonAnointed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/ItemPoolList_AnointedEnemyGunsGear.ItemPoolList_AnointedEnemyGunsGear"',PoolProbability=(BaseValueConstant=1,DataTableValue=,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/SniperRifles/ItemPool_SniperRifles_ETech_All.ItemPool_SniperRifles_ETech_All"',PoolProbability=(BaseValueConstant=0.33),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1)))
-
-# Add a 33% chance for Anointed Goliaths to drop Alien-Barrel Heavy Weapons.
-SparkCharacterLoadedEntry,(1,1,0,BPChar_Goliath_Anointed),/Game/Enemies/Goliath/Anointed/_Design/Character/BPChar_Goliath_Anointed.BPChar_Goliath_Anointed_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/ItemPoolList_AnointedEnemyGunsGear.ItemPoolList_AnointedEnemyGunsGear"',PoolProbability=(BaseValueConstant=1,DataTableValue=,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Guns/Heavy/ItemPool_Heavy_ETech_All.ItemPool_Heavy_ETech_All"',PoolProbability=(BaseValueConstant=0.33),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1)))
-
 # Anathema the Relentless - Add more chances for dedicated loot, add additional Mayhem-scaled dedicated drops.
 SparkCharacterLoadedEntry,(1,1,0,BPChar_GuardianBruteMiniboss),/Game/PatchDLC/Takedown2/Enemies/GuardianBrute/Miniboss/_Design/Character/BPChar_GuardianBruteMiniboss.BPChar_GuardianBruteMiniboss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/PatchDLC/Takedown2/GameData/Loot/ItemPool_TD2_Miniboss.ItemPool_TD2_Miniboss"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_AnointedGuns.Init_RandomLootCount_AnointedGuns_C"',BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Mayhem2/Gear/ItemPoolExpansion_Mayhem2/ItemPool_Mayhem2_Legendaries.ItemPool_Mayhem2_Legendaries"',PoolProbability=(BaseValueConstant=1,BaseValueAttribute=/Game/PatchDLC/Mayhem2/Gear/ItemPoolExpansion_Mayhem2/Att_Mayhem2_Only_DropChance.Att_Mayhem2_Only_DropChance,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Currency/ItemPool_Money.ItemPool_Money"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=2)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Eridium/ItemPool_Eridium.ItemPool_Eridium"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=2)))
 SparkCharacterLoadedEntry,(1,1,0,BPChar_GuardianBruteMiniboss),/Game/PatchDLC/Takedown2/Enemies/GuardianBrute/Miniboss/_Design/Character/BPChar_GuardianBruteMiniboss.BPChar_GuardianBruteMiniboss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPoolLists,0,,(ItemPoolListData'"/Game/GameData/Loot/ItemPools/ItemPoolList_Boss.ItemPoolList_Boss"',ItemPoolListData'"/Game/GameData/Loot/ItemPools/ItemPoolList_MiniBoss.ItemPoolList_MiniBoss"',ItemPoolListData'"/Game/GameData/Loot/ItemPools/ItemPoolList_MiniBoss.ItemPoolList_MiniBoss"')
@@ -3967,8 +3654,8 @@ SparkCharacterLoadedEntry,(1,1,0,BPChar_GuardianBruteBoss),/Game/PatchDLC/Takedo
 SparkCharacterLoadedEntry,(1,1,0,BPChar_Varkid_RaidBoss),/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/Character/BPChar_Varkid_RaidBoss.BPChar_Varkid_RaidBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/PatchDLC/Ixora2/GameData/Loot/UniqueEnemyDrops/ItemPool_Ixora2_VarkidRaidBoss.ItemPool_Ixora2_VarkidRaidBoss"',PoolProbability=(BaseValueConstant=0.25,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=2,AttributeInitializer=,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Ixora2/Gear/Artifacts/_Unique/CompanyMan/ItemPool_CompanyMan.ItemPool_CompanyMan"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=2,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Ixora2/GameData/Loot/EnemyPools/ItemPoolList_Boss_Ixora2.ItemPoolList_Boss_Ixora2"',PoolProbability=(BaseValueConstant=0.5,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Currency/ItemPool_Money.ItemPool_Money"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=3)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Eridium/ItemPool_Eridium.ItemPool_Eridium"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=2)),(ItemPool=ItemPoolData'"Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_LotsAndLots.Init_RandomLootCount_LotsAndLots_C"',BaseValueScale=2)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_LotsAndLots.Init_RandomLootCount_LotsAndLots_C"',BaseValueScale=2)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_LotsAndLots.Init_RandomLootCount_LotsAndLots_C"',BaseValueScale=2)))
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Ixora2/GameData/Loot/UniqueEnemyDrops/ItemPool_Ixora2_VarkidRaidBoss.ItemPool_Ixora2_VarkidRaidBoss,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/Ixora2/Gear/Weapons/_Unique/Replay/Balance/Balance_PS_ATL_Replay.Balance_PS_ATL_Replay,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Ixora2/Gear/Weapons/_Unique/Replay/Balance/Balance_PS_ATL_Replay.Balance_PS_ATL_Replay"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Ixora2/Gear/Weapons/_Unique/Disruptor/Balance/Balance_SR_JAK_Disruptor.Balance_SR_JAK_Disruptor,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Ixora2/Gear/Weapons/_Unique/Disruptor/Balance/Balance_SR_JAK_Disruptor.Balance_SR_JAK_Disruptor"',Weight=(BaseValueConstant=1,BaseValueScale=1)),(InventoryBalanceData=/Game/PatchDLC/Ixora2/Gear/GrenadeMods/_Unique/Ringer/Balance/InvBalD_GM_Ringer.InvBalD_GM_Ringer,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/Ixora2/Gear/GrenadeMods/_Unique/Ringer/Balance/InvBalD_GM_Ringer.InvBalD_GM_Ringer"',Weight=(BaseValueConstant=1,BaseValueScale=1)))
 
-# Make Vermivorous drop two pieces of Mayhem 6 gear and a 25% chance to drop a random Director's Cut item. Also more loot in general.
-SparkCharacterLoadedEntry,(1,1,0,BPChar_Varkid_LesserBoss),/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/LesserBoss/BPChar_Varkid_LesserBoss.BPChar_Varkid_LesserBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/PatchDLC/Ixora2/GameData/Loot/Legendary/ItemPool_Ixora2_All_Legendary.ItemPool_Ixora2_All_Legendary"',PoolProbability=(BaseValueConstant=0.25,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Ixora2/GameData/Loot/Legendary/ItemPool_Ixora2_ClassMods_Legendary.ItemPool_Ixora2_ClassMods_Legendary"',PoolProbability=(BaseValueConstant=0.25,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Mayhem2/Gear/ItemPoolExpansion_Mayhem2/ItemPool_Mayhem2_Legendaries.ItemPool_Mayhem2_Legendaries"',PoolProbability=(BaseValueConstant=1,BaseValueAttribute=/Game/PatchDLC/Mayhem2/Gear/ItemPoolExpansion_Mayhem2/Att_Mayhem2_Only_DropChance.Att_Mayhem2_Only_DropChance,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueAttribute=,BaseValueScale=2)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Currency/ItemPool_Money.ItemPool_Money"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=2)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Eridium/ItemPool_Eridium.ItemPool_Eridium"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=1)),(ItemPool=ItemPoolData'"Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Lots.Init_RandomLootCount_Lots_C"',BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Lots.Init_RandomLootCount_Lots_C"',BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Lots.Init_RandomLootCount_Lots_C"',BaseValueScale=1)))
+# Make Vermivorous drop two pieces of Mayhem 6 gear and a 10% chance to drop a random Director's Cut item. Also more loot in general.
+SparkCharacterLoadedEntry,(1,1,0,BPChar_Varkid_LesserBoss),/Ixora2/Enemies/Varkid/_Unique/RaidBoss/_Design/LesserBoss/BPChar_Varkid_LesserBoss.BPChar_Varkid_LesserBoss_C:AIBalanceState_GEN_VARIABLE,DropOnDeathItemPools.ItemPools,0,,((ItemPool=ItemPoolData'"/Game/PatchDLC/Ixora2/GameData/Loot/Legendary/ItemPool_Ixora2_All_Legendary.ItemPool_Ixora2_All_Legendary"',PoolProbability=(BaseValueConstant=0.1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Ixora2/GameData/Loot/Legendary/ItemPool_Ixora2_ClassMods_Legendary.ItemPool_Ixora2_ClassMods_Legendary"',PoolProbability=(BaseValueConstant=0.1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/PatchDLC/Mayhem2/Gear/ItemPoolExpansion_Mayhem2/ItemPool_Mayhem2_Legendaries.ItemPool_Mayhem2_Legendaries"',PoolProbability=(BaseValueConstant=1,BaseValueAttribute=/Game/PatchDLC/Mayhem2/Gear/ItemPoolExpansion_Mayhem2/Att_Mayhem2_Only_DropChance.Att_Mayhem2_Only_DropChance,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,BaseValueAttribute=,BaseValueScale=2)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Currency/ItemPool_Money.ItemPool_Money"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=2)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/Eridium/ItemPool_Eridium.ItemPool_Eridium"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Crazy.Init_RandomLootCount_Crazy_C"',BaseValueScale=1)),(ItemPool=ItemPoolData'"Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Lots.Init_RandomLootCount_Lots_C"',BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Lots.Init_RandomLootCount_Lots_C"',BaseValueScale=1)),(ItemPool=ItemPoolData'"/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay"',PoolProbability=(BaseValueConstant=1,BaseValueScale=1),NumberOfTimesToSelectFromThisPool=(BaseValueConstant=1,AttributeInitializer=BlueprintGeneratedClass'"/Game/GameData/Loot/ItemPools/Init_RandomLootCount_Lots.Init_RandomLootCount_Lots_C"',BaseValueScale=1)))
 
 # Make Eista retain his Invincible moniker after "We Slass! 3", increase Eista the Invincible's total health to roughly halfway between Wotan and Scourge.
 # Add the Sacrificial Lamb to Eista with a 10% chance of dropping, make Eista have a 15% chance to drop a DLC2 item of each type each, fatten up his drops with more money, eridium and 20% chance for legendary gear per item type.
