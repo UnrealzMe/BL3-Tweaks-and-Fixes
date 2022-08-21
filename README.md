@@ -12,14 +12,15 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 
 #### QoL Changes:
 - Faster NPCs.
-- Smaller HUD.
-- No "reload" notification.
+- Minimalistic UI.
+- Vehicle scales with mayhem level.
 - Ammo drops are now based on your missing ammo.
 - Anointment re-roll cost lowered to 150 Eridium.
 - Reduced the drops to anything other to your class.
 - Increased the chances of getting uniques out of the Earl's vendor & removed greens.
 - Always visible challenge icons on the map (DLC1 excluded).
 - Some animations speed has been increased.
+- Red text explanations for all legendary/unique weapons and grenade mods.
 - Easier explanation of which trials is which.
  
 #### The Fixes:
@@ -30,13 +31,13 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Woodblocker  - Add the missing critical damage and vertical recoil bonuses back.
 - S.F. Force - Fix the secondary firing mode having incorrect damage compared to the primary firing mode.
 - Fix Red Rain and Blue Fire dropping their loot into the abyss.
-- Vendor Crash Fix.
+- Vendor Crash Fix (removes the Item of the Day pop up).
 - Make the Hunt sniper rifles and the Revengenador shield Legendary.
 - Beef Plisken loot drop pattern Fix.
 - Fix Polyamorous' secondary fire not receiving damage bonuses.
 - Fix DLC2 and DLC4 enemies not dropping shields.
 - Fix Siren COMs sometimes spawning with a blank part.
-- Droughts stocked porta-potties.
+- All porta-potties in The Droughts have standard loot definitions.
 - Allowing the Shooting Star shield to go through the world.
 
 #### Quest Changes:
@@ -53,12 +54,6 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 
 #### Loot Pool Tweaks:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er) to world drops.
-- Anointed Zealots has a chance to drop Alien-Barrel Submachine Guns.
-- Anointed Tinks has a chance to drop Alien-Barrel Pistols.
-- Anointed Psychos has a chance to drop Alien-Barrel Shotguns.
-- Anointed Enforcers has a chance to drop Alien-Barrel Assault Rifles.
-- Anointed Goons has a chance to drop Alien-Barrel Sniper Rifles.
-- Anointed Goliaths has a chance to drop Alien-Barrel Heavy Weapons.
 - Anathema the Relentless and Scourge the Invincible Martyr has more chances to drop their dedicated loot, add additional Mayhem-scaled dedicated drops.
 - Hemovorous the Invincible has a chance to drop two pieces of her specific loot, a bunch of money, eridium, and legendary/purple/blue gear. Also makes her produce 2 Company Men per kill and remove it from her regular loot pool.
 - Vermivorous the Invincible has a chance to drop two pieces of Mayhem 6 gear and a chance to drop a random Director's Cut item. Also more loot in general.
