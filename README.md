@@ -23,7 +23,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Easier explanation of which trials is which.
  
 #### The Fixes:
-- Various class fixes.
+- Various skill fixes.
 - Various description fixes and adjustments.
 - Good Juju - Fix the secondary firing mode doing less than the primary firing mode.
 - Blood-Starved Beast - Fix the damage source to be SMG.
