@@ -2,7 +2,6 @@
 
 #### Author: UnrealMe
 #### Version: 1.0
-#### Categories: Bug Fixes, General QoL, UI Changes, Quests Tweaks, Loot Pool Tweaks.
 
 This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community.
 
@@ -40,7 +39,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Allowing the Shooting Star shield to go through the world.
 
 #### Quest Changes:
-- Bumps up the gifts you get at the end of "Heart of Gold."
+- Bumps up the gifts you get at the end of the DLC2 mission "Heart of Gold".
 - Buffs up the amount of cash you get from the malfunctioning slot machines during the DLC2 mission "Sisterly Love".
 - Ava's 'Invasion of Privacy' chest contains a legendary item in addition to The Boo.
 - Prisa's Pop's loot stash has a guaranteed legendary.
