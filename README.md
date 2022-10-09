@@ -20,6 +20,7 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Some animations speed has been increased.
 - Red text explanations for all legendary/unique weapons and grenade mods.
 - Easier explanation of which trials is which.
+- All enemy vehicle spawns to have the widest possible range of parts available (including skins), right from the beginning of the game. Enemy vehicle spawns will also have an equal chance of spawning each part, so no parts are more rare than others.
  
 #### The Fixes:
 - Various skill fixes.
