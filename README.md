@@ -46,6 +46,8 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Prisa's Pop's loot stash has a guaranteed legendary.
 - Vault of the Serpet ammo crates contain Eridium.
 - Wainwright's chests in Knotty Peak are Jakobs-Only.
+- Shortens the Rakk-shooting contest during the "Life of the Party" quest from 90 seconds to 15 seconds.
+- Allows the mission "Childhood's End" to be picked up prior to entering Konrad's hold (specifically once Blood Drive has been completed), and unlocks the full mission-intro dialogue if picked up from the water purifier in Devil's Razor. 
 
 #### Drop Location Changes:
 - Switch the Quadomizer and Duc on the Rampager and Dreg/Rage.
