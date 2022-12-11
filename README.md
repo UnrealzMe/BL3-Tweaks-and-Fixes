@@ -58,6 +58,10 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Hemovorous the Invincible has a chance to drop two pieces of her specific loot, a bunch of money, eridium, and legendary/purple/blue gear. Also makes her produce 2 Company Men per kill and remove it from her regular loot pool.
 - Vermivorous the Invincible has a chance to drop two pieces of Mayhem 6 gear and a chance to drop a random Director's Cut item. Also more loot in general.
 - Make Eista retain his Invincible moniker after "We Slass! 3", increase his total health to roughly halfway between Wotan and Scourge. Add the Sacrificial Lamb to Eista loot pool. Make Eista have a chance to drop a DLC2 item of each type each, fatten up his drops with more money, eridium and a chance for legendary gear per item type.
+- Joey Ultraviolet has an additional chance to drop from each of the Underboss drop pools and a chance to drop the Pricker.
+- Increase the odds of Evil Lilith's dropping an item to compensate for the obnoxiously long immunity phase.
+- Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny been added to the Psycho Krieg DLC unique item world drop pool.
+- Make Captain Haunt drop at least two dedicated items per kill.
 - Improved the Godliath loot pool.
 - Kratch has a chance to drop the Pearl of Knowledge.
 - Gigamind has a chance to drop Null-Pointer.
@@ -96,9 +100,5 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Bellik Primis has a chance to drop the Core Buster.
 - Quartermaster has a chance to drop the Splinter.
 - Ruiner has a chance to drop the Dakota.
-- Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny been added to the Psycho Krieg DLC unique item world drop pool.
-- Increase the odds of Evil Lilith's dropping an item to compensate for the obnoxiously long immunity phase.
 - Heavyweight Harker has additional chances to drop Arms Race gear.
 - The Seer has a chance to drop the Mysterious Amulet.
-- Make Captain Haunt drop at least two dedicated items per kill.
-- Joey Ultraviolet has an additional chance to drop from each of the Underboss drop pools and a chance to drop the Pricker.
