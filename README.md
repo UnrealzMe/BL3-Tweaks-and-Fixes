@@ -1,11 +1,11 @@
 ## Borderlands 3 Tweaks and Fixes
 
 #### Author: UnrealMe
-#### Version: 1.01
+#### Version: 2
 
 This is a collection of mods containing bug fixes and quality of life improvements. This mod was created based on the Balands mod (Credits to Aaron0000), also includes many mods from all over the community.
 
-#### CREDITS: Aaron0000, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, shadowevil, ZetaDaemon, Novenic, Grimm.
+#### CREDITS: Aaron0000, Apocalyptech, CZ47, Lonemastereno, EpicNNG, SSpyR, dex_manly, Elektrohund, ZetaDaemon, Novenic, Grimm.
 
 ## Changelog:
 
@@ -20,13 +20,18 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Some animations speed has been increased.
 - Red text explanations for all legendary/unique weapons and grenade mods.
 - Easier explanation of which trials is which.
-- All enemy vehicle spawns to have the widest possible range of parts available (including skins), right from the beginning of the game. Enemy vehicle spawns will also have an equal chance of spawning each part, so no parts are more rare than others.
+- All enemy vehicle spawns to have the widest possible range of parts available (including skins), right from the beginning of the game.
+- Enemy vehicle spawns will have an equal chance of spawning each part, so no parts are more rare than others.
+- Adds a food cart with an umbrella just to the right when leaving the bank area in Atlas HQ and heading to the promenade/courtyard.
+- Moves the Atlas HQ Fast Travel machine into Rhys' Office, swapping places with the New-U station ordinarily found there.
  
 #### The Fixes:
 - Various skill fixes.
 - Various description fixes and adjustments.
 - Good Juju - Fix the secondary firing mode doing less than the primary firing mode.
 - Blood-Starved Beast - Fix the damage source to be SMG.
+- Creeping Corruption - Fix projectiles not being boosted by Assault Rifle Damage.
+- Sickle - Make the Boom sickle deal Assault Rifle Damage.
 - Woodblocker  - Add the missing critical damage and vertical recoil bonuses back.
 - S.F. Force - Fix the secondary firing mode having incorrect damage compared to the primary firing mode.
 - Fix Red Rain and Blue Fire dropping their loot into the abyss.
@@ -37,20 +42,22 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Fix DLC2 and DLC4 enemies not dropping shields.
 - Fix Siren COMs sometimes spawning with a blank part.
 - All porta-potties in The Droughts have standard loot definitions.
+- Plus Ultra - Fix the Cooldown not applying to certain Action Skills.
+- All-In - Fix the Cooldown not applying to certain Action Skills.
 - Allowing the Shooting Star shield to go through the world.
+- Caustic Coast - Make Shard Damage Scale with Level.
+- Asclepius - Fix the Nova damage not scaling with level.
+- Fixed Beef Plisken's loot drop pattern.
 
 #### Quest Changes:
-- Bumps up the gifts you get at the end of the DLC2 mission "Heart of Gold".
 - Buffs up the amount of cash you get from the malfunctioning slot machines during the DLC2 mission "Sisterly Love".
-- Ava's 'Invasion of Privacy' chest contains a legendary item in addition to The Boo.
-- Prisa's Pop's loot stash has a guaranteed legendary.
-- Vault of the Serpet ammo crates contain Eridium.
-- Wainwright's chests in Knotty Peak are Jakobs-Only.
 - Shortens the Rakk-shooting contest during the "Life of the Party" quest from 90 seconds to 15 seconds.
-
-#### Drop Location Changes:
-- Switch the Quadomizer and Duc on the Rampager and Dreg/Rage.
-- Switch the Messy Breakup and Ten Gallon on GenIVIV and Rax.
+- Allows the mission "Childhood's End" to be picked up prior to entering Konrad's hold.
+- Ava's 'Invasion of Privacy' chest contains a legendary item in addition to The Boo.
+- Bumps up the gifts you get at the end of the DLC2 mission "Heart of Gold".
+- Prisa's Pop's loot stash has a guaranteed legendary.
+- Wainwright's chests in Knotty Peak are Jakobs-Only.
+- Vault of the Serpet ammo crates contain Eridium.
 
 #### Loot Pool Tweaks:
 - Add Mayhem 4 and Mayhem 6 exclusives to the world drop Legendary pools. Add Bekah, R.Y.N.A.H and The Hunt(er) to world drops.
@@ -62,6 +69,8 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Increase the odds of Evil Lilith's dropping an item to compensate for the obnoxiously long immunity phase.
 - Ashen Beast, Minor Kong, P.A.T. Mk. II, and Sawpenny been added to the Psycho Krieg DLC unique item world drop pool.
 - Make Captain Haunt drop at least two dedicated items per kill.
+- Switch the Quadomizer and Duc on the Rampager and Dreg/Rage.
+- Switch the Messy Breakup and Ten Gallon on GenIVIV and Rax.
 - Improved the Godliath loot pool.
 - Kratch has a chance to drop the Pearl of Knowledge.
 - Gigamind has a chance to drop Null-Pointer.
