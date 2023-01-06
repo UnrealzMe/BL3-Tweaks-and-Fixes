@@ -47,7 +47,6 @@ This is a collection of mods containing bug fixes and quality of life improvemen
 - Allowing the Shooting Star shield to go through the world.
 - Caustic Coast - Make Shard Damage Scale with Level.
 - Asclepius - Fix the Nova damage not scaling with level.
-- Fixed Beef Plisken's loot drop pattern.
 
 #### Quest Changes:
 - Buffs up the amount of cash you get from the malfunctioning slot machines during the DLC2 mission "Sisterly Love".
