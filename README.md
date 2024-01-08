@@ -25,7 +25,7 @@ This mod collection brings together various bug fixes and quality of life improv
 - Moved the Fast Travel machine in Atlas HQ to the upper courtyard, just outside the Atlas HQ entrance.
 - The Eridian Fabricator is now fully automatic, with a fire rate of one shot per second.
 
-### The Fixes:
+#### The Fixes:
 - Various skill fixes.
 - Various description fixes and adjustments.
 - Fixed the secondary firing mode of Good Juju dealing less damage than the primary firing mode.
@@ -58,7 +58,7 @@ This mod collection brings together various bug fixes and quality of life improv
 - Wainwright's chests in Knotty Peak are exclusive to Jakobs loot.
 - Vault of the Serpet ammo crates now contain Eridium.
 
-### Loot Pool Adjustments:
+#### Loot Pool Adjustments:
 - Adds Mayhem 4 and Mayhem 6 exclusive drops to the world drop Legendary pools. Adds Bekah, R.Y.N.A.H, and The Hunt(er) to world drops.
 - Increases the drop rates for Anathema the Relentless and Scourge the Invincible Martyr's dedicated loot.
 - Hemovorous the Invincible now has a chance to drop two pieces of her specific loot, along with money, eridium, and legendary/purple/blue gear. Removes Company Man from her regular loot pool.
