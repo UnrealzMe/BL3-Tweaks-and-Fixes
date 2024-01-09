@@ -9,7 +9,7 @@ This mod collection brings together various bug fixes and quality of life improv
 
 ## Changelog:
 
-#### QoL Changes:
+##### QoL Changes:
 - Minimalistic HUD/UI.
 - Improved camera mode.
 - Ammo drops now scale based on your missing ammo.
@@ -25,7 +25,7 @@ This mod collection brings together various bug fixes and quality of life improv
 - Moved the Fast Travel machine in Atlas HQ to the upper courtyard, just outside the Atlas HQ entrance.
 - The Eridian Fabricator is now fully automatic, with a fire rate of one shot per second.
 
-#### The Fixes:
+###### The Fixes:
 - Various skill fixes.
 - Various description fixes and adjustments.
 - Fixed the secondary firing mode of Good Juju dealing less damage than the primary firing mode.
